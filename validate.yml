@@ -1,0 +1,60 @@
+name: Validate TWoF data
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'js/**'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'js/**'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in [Path('data/facts.json'), Path('data/categories.json'), Path('data/metadata.json')]:
+              with path.open(encoding='utf-8') as f:
+                  json.load(f)
+              print(f'Valid JSON: {path}')
+          PY
+
+      - name: Validate fact schema
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          allowed = {'space', 'history', 'physics', 'biology', 'mathematics', 'chemistry'}
+          data = json.loads(Path('data/facts.json').read_text(encoding='utf-8'))
+          facts = data.get('facts', [])
+          assert isinstance(facts, list), 'facts must be a list'
+
+          ids = set()
+          for i, fact in enumerate(facts, 1):
+              assert isinstance(fact, dict), f'Fact {i} must be an object'
+              for key in ['id', 'title', 'category', 'summary', 'explanation', 'source']:
+                  assert fact.get(key), f'Fact {i} missing required field: {key}'
+              assert fact['id'] not in ids, f'Duplicate fact id: {fact["id"]}'
+              ids.add(fact['id'])
+              assert fact['category'] in allowed, f'Invalid category: {fact["category"]}'
+              assert isinstance(fact.get('tags', []), list), f'Fact {i} tags must be a list'
+              source = fact['source']
+              assert isinstance(source, dict), f'Fact {i} source must be an object'
+              assert source.get('title'), f'Fact {i} source missing title'
+              url = source.get('url', '')
+              assert url.startswith(('http://', 'https://')), f'Fact {i} source URL must be HTTP(S)'
+
+          print(f'Validated {len(facts)} facts successfully.')
+          PY
