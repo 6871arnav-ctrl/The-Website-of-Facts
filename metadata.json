@@ -1,0 +1,13 @@
+{
+  "siteName": "The Website of Facts",
+  "shortName": "TWoF",
+  "creator": "Arnav Basu",
+  "schemaVersion": 1,
+  "contentStatus": "initial-release-empty",
+  "principles": [
+    "Prefer surprising facts over ordinary trivia.",
+    "Use strong sources for extraordinary claims.",
+    "Explain why a fact is surprising, not merely what it is.",
+    "Design facts to lead naturally into deeper rabbit holes."
+  ]
+}

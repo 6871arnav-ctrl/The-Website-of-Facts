@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "space",
+      "name": "Space Science & Astronomy",
+      "shortName": "Space",
+      "description": "Cosmic scales, strange worlds, stars, planets and the universe."
+    },
+    {
+      "id": "history",
+      "name": "History & General Knowledge",
+      "shortName": "History & GK",
+      "description": "Overlooked events, remarkable people, civilizations and unexpected connections."
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "shortName": "Physics",
+      "description": "Reality at its strangest: matter, energy, time, fields and quantum phenomena."
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "shortName": "Biology",
+      "description": "Life, cells, evolution, organisms and the mechanisms hiding in plain sight."
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "shortName": "Mathematics",
+      "description": "Beautiful structures, paradoxes, patterns, infinity and mathematical surprises."
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "shortName": "Chemistry",
+      "description": "Atoms, molecules, reactions, materials and chemistry's unexpected behavior."
+    }
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "version": 1,
+  "facts": [
+    {
+      "id": "fact-space-001",
+      "title": "The Sun's fusion relies on quantum tunnelling",
+      "category": "space",
+      "topic": "stellar fusion",
+      "tags": ["Sun", "quantum tunnelling", "fusion", "protons", "quantum mechanics"],
+      "summary": "Quantum tunnelling helps protons in the Sun's core get close enough for nuclear fusion to occur.",
+      "whySurprising": "Classically, the positively charged protons should almost always repel one another before getting close enough to fuse.",
+      "explanation": "Inside the Sun, enormous temperature and pressure give protons high energies, but not normally enough to overcome their electrostatic repulsion classically. Quantum mechanics gives them a small probability of tunnelling through the Coulomb barrier. That tiny probability is enough, over the enormous number of protons in the core, to sustain the proton-proton fusion chain that powers the Sun.",
+      "deepDive": "The fusion rate is slow for any individual proton, but the Sun contains an immense number of particles and has been fusing hydrogen for billions of years. Quantum tunnelling is therefore not a minor correction—it is central to how ordinary stars like the Sun shine.",
+      "source": {
+        "title": "NASA: Origin of Light",
+        "url": "https://svs.gsfc.nasa.gov/11084/"
+      }
+    },
+    {
+      "id": "fact-space-002",
+      "title": "Sunlight can spend 40,000 years escaping the Sun",
+      "category": "space",
+      "topic": "light",
+      "tags": ["Sun", "photons", "light", "radiation"],
+      "summary": "A photon created in the Sun's core can take roughly 40,000 years to work its way to the surface.",
+      "whySurprising": "The same light then needs only about eight minutes to travel from the Sun's surface to Earth.",
+      "explanation": "Photons created in the fusion-powered core do not shoot straight outward. They repeatedly interact with matter, being absorbed and re-emitted or scattered in different directions. This produces an enormous random walk through the solar interior.",
+      "deepDive": "NASA describes this journey as a kind of 'drunken walk.' The exact travel time depends on the model and the definition of where the photon starts, but the key idea is that the journey through the dense solar interior takes vastly longer than the final trip through space to Earth.",
+      "source": {
+        "title": "NASA: Journey of Light",
+        "url": "https://svs.gsfc.nasa.gov/11537/"
+      }
+    },
+    {
+      "id": "fact-space-003",
+      "title": "The Sun converts about 600 million tonnes of hydrogen every second",
+      "category": "space",
+      "topic": "stellar fusion",
+      "tags": ["Sun", "hydrogen", "helium", "fusion", "mass-energy"],
+      "summary": "The Sun fuses roughly 600 million tonnes of hydrogen into helium every second.",
+      "whySurprising": "Yet only about four million tonnes of that mass per second is converted into energy through mass-energy equivalence.",
+      "explanation": "In the proton-proton chain, hydrogen nuclei ultimately become helium. The helium nucleus has slightly less mass than the original collection of hydrogen nuclei. The missing mass is released as energy according to E = mc².",
+      "deepDive": "The energy produced in the core eventually emerges from the solar surface as electromagnetic radiation and other forms of energy. The Sun has been carrying out this process for billions of years and still contains an enormous reservoir of hydrogen.",
+      "source": {
+        "title": "NASA: Five Weird Things About the Sun",
+        "url": "https://science.nasa.gov/sun/facts/"
+      }
+    },
+    {
+      "id": "fact-space-004",
+      "title": "The universe can expand faster than light",
+      "category": "space",
+      "topic": "cosmology",
+      "tags": ["universe", "expansion", "relativity", "galaxies"],
+      "summary": "Very distant galaxies can have recession rates greater than the speed of light because cosmic space itself is expanding.",
+      "whySurprising": "This does not violate special relativity's local speed limit.",
+      "explanation": "Special relativity limits how fast an object can locally move through spacetime. Cosmic expansion is different: the distance between sufficiently distant regions of space can increase faster than light because the geometry of space itself is changing.",
+      "deepDive": "This is why statements such as 'nothing can ever move faster than light' need to be interpreted carefully. Locally, the relativistic speed limit still holds; on cosmological scales, the expansion of spacetime produces a different effect.",
+      "source": {
+        "title": "NASA: The Expanding Universe",
+        "url": "https://science.nasa.gov/universe/expanding-universe/"
+      }
+    },
+    {
+      "id": "fact-space-005",
+      "title": "The observable universe is far larger than 13.8 billion light-years",
+      "category": "space",
+      "topic": "cosmology",
+      "tags": ["observable universe", "Big Bang", "cosmic expansion", "light"],
+      "summary": "Although the universe is about 13.8 billion years old, the observable universe is roughly 93 billion light-years across.",
+      "whySurprising": "Light has not had 93 billion years to travel—the extra distance comes from the expansion of space while the light was travelling.",
+      "explanation": "When ancient light began its journey, the regions that emitted it were much closer to the region that eventually became our cosmic neighbourhood. While the light travelled, the universe continued expanding, increasing the present-day distance between us and those regions.",
+      "deepDive": "The observable universe therefore cannot be visualized simply as a sphere with a radius of 13.8 billion light-years. Cosmological distance depends on how the expansion of the universe is accounted for.",
+      "source": {
+        "title": "NASA: Universe Glossary",
+        "url": "https://science.nasa.gov/universe/glossary/"
+      }
+    },
+    {
+      "id": "fact-space-006",
+      "title": "Looking farther into space means looking further into the past",
+      "category": "space",
+      "topic": "lookback time",
+      "tags": ["light", "galaxies", "time", "astronomy"],
+      "summary": "A distant galaxy is seen not as it is now, but as it was when the light reaching us today began its journey.",
+      "whySurprising": "A telescope is therefore also a kind of time machine—though it only lets us observe the past.",
+      "explanation": "Light travels at a finite speed. If a galaxy is billions of light-years away, its light takes billions of years to reach Earth. The image captured by a telescope therefore records an earlier state of that galaxy.",
+      "deepDive": "The farther astronomers look, the earlier in cosmic history they can observe. Powerful telescopes such as JWST exploit this effect to study galaxies that existed when the universe was much younger.",
+      "source": {
+        "title": "NASA: Looking Back in Time",
+        "url": "https://science.nasa.gov/universe/"
+      }
+    },
+    {
+      "id": "fact-space-007",
+      "title": "Small black holes would be hotter than giant ones",
+      "category": "space",
+      "topic": "black holes",
+      "tags": ["black holes", "Hawking radiation", "quantum physics", "temperature"],
+      "summary": "Hawking's prediction says black holes have temperatures, and the smaller the black hole, the hotter it is.",
+      "whySurprising": "That reverses the usual intuition that something more massive should simply be more energetic and hotter.",
+      "explanation": "Quantum effects near a black-hole horizon lead to Hawking radiation. The temperature is inversely related to the black hole's mass, so a stellar-mass black hole would be extraordinarily cold while a hypothetical tiny black hole would be much hotter.",
+      "deepDive": "Because radiation carries energy away, a black hole loses mass. As it gets smaller, its temperature rises, causing the evaporation process to accelerate.",
+      "source": {
+        "title": "NASA: Black Holes",
+        "url": "https://science.nasa.gov/universe/black-holes/"
+      }
+    },
+    {
+      "id": "fact-space-008",
+      "title": "Galaxy clusters can act as cosmic telescopes",
+      "category": "space",
+      "topic": "gravitational lensing",
+      "tags": ["galaxies", "dark matter", "gravitational lensing", "telescopes"],
+      "summary": "The gravity of a massive galaxy cluster can magnify and distort light from galaxies far behind it.",
+      "whySurprising": "Astronomers can effectively use a natural structure in space as a gigantic lens.",
+      "explanation": "General relativity predicts that mass curves spacetime and therefore changes the paths of light. A massive galaxy cluster can bend background light strongly enough to magnify distant galaxies or stretch them into arcs.",
+      "deepDive": "Gravitational lensing is also a tool for mapping otherwise invisible mass, including dark matter, because the amount of bending depends on the cluster's gravitational mass distribution.",
+      "source": {
+        "title": "NASA: Gravitational Lensing",
+        "url": "https://science.nasa.gov/universe/gravitational-lensing/"
+      }
+    },
+    {
+      "id": "fact-space-009",
+      "title": "Gravity can make one galaxy appear several times",
+      "category": "space",
+      "topic": "gravitational lensing",
+      "tags": ["gravitational lensing", "galaxies", "light", "relativity"],
+      "summary": "Strong gravitational lensing can send light from one distant galaxy along multiple paths to Earth, producing multiple images.",
+      "whySurprising": "The separate-looking galaxies can actually be different optical images of one object.",
+      "explanation": "A massive foreground galaxy or cluster curves spacetime around it. Light from a background galaxy can then follow different bent paths toward Earth, producing multiple images, arcs, or even nearly complete Einstein rings.",
+      "deepDive": "The phenomenon provides astronomers with both a natural magnification system and a way to investigate the mass distribution of the lensing object.",
+      "source": {
+        "title": "NASA: Gravitational Lensing",
+        "url": "https://science.nasa.gov/universe/gravitational-lensing/"
+      }
+    },
+    {
+      "id": "fact-space-010",
+      "title": "A star can be crushed into a city-sized object",
+      "category": "space",
+      "topic": "neutron stars",
+      "tags": ["neutron stars", "density", "stellar remnants"],
+      "summary": "A neutron star can contain more mass than the Sun while being only around 20 kilometres across.",
+      "whySurprising": "An entire stellar mass is compressed into something comparable in size to a city.",
+      "explanation": "When a massive star's core collapses after a supernova, matter can be compressed so intensely that electrons and protons combine to form neutron-rich matter. The resulting object is extraordinarily dense.",
+      "deepDive": "Neutron stars are among the best natural laboratories for matter at densities far beyond anything achievable on Earth. Their behaviour probes nuclear physics, gravity, and the properties of ultra-dense matter.",
+      "source": {
+        "title": "NASA: Neutron Stars",
+        "url": "https://science.nasa.gov/universe/neutron-stars/"
+      }
+    },
+    {
+      "id": "fact-space-011",
+      "title": "Some neutron stars spin hundreds of times every second",
+      "category": "space",
+      "topic": "pulsars",
+      "tags": ["neutron stars", "pulsars", "rotation", "angular momentum"],
+      "summary": "Some neutron stars rotate hundreds of times per second, making their surfaces move at enormous speeds.",
+      "whySurprising": "A star containing more mass than the Sun can rotate almost like an astronomical spinning top.",
+      "explanation": "When a collapsing stellar core shrinks dramatically, conservation of angular momentum causes its rotation rate to increase. Some neutron stars become millisecond pulsars, rotating hundreds of times per second.",
+      "deepDive": "Their intense magnetic fields can produce beams of radiation. If those beams sweep across Earth once per rotation, astronomers observe extremely regular pulses.",
+      "source": {
+        "title": "NASA: Pulsars",
+        "url": "https://science.nasa.gov/universe/neutron-stars/pulsars/"
+      }
+    },
+    {
+      "id": "fact-space-012",
+      "title": "Magnetars have magnetic fields trillions of times stronger than Earth's",
+      "category": "space",
+      "topic": "magnetars",
+      "tags": ["magnetars", "magnetic fields", "neutron stars"],
+      "summary": "Magnetars are neutron stars with some of the strongest magnetic fields known in the universe.",
+      "whySurprising": "Their magnetic fields are so extreme that they fundamentally affect the behaviour of matter around them.",
+      "explanation": "A magnetar is a highly magnetized neutron star. Its magnetic field can reach around 10^14–10^15 gauss, vastly exceeding Earth's approximately half-gauss surface field.",
+      "deepDive": "Magnetic stresses in the crust can trigger powerful bursts of X-rays and gamma rays. Magnetars therefore provide an extreme environment for studying matter, electromagnetism, and relativistic physics.",
+      "source": {
+        "title": "NASA: Magnetars",
+        "url": "https://science.nasa.gov/universe/neutron-stars/magnetars/"
+      }
+    },
+    {
+      "id": "fact-space-013",
+      "title": "Some planets have two suns",
+      "category": "space",
+      "topic": "exoplanets",
+      "tags": ["exoplanets", "binary stars", "circumbinary planets"],
+      "summary": "Planets can orbit two stars simultaneously, creating systems with two stellar sources of light.",
+      "whySurprising": "A planet can literally have two suns rising and setting in its sky.",
+      "explanation": "Some planets orbit both stars in a binary system rather than orbiting just one star. These are called circumbinary planets.",
+      "deepDive": "Such systems were once considered dynamically difficult places for planets to survive, but observations have shown that planetary systems can exist around binary stars.",
+      "source": {
+        "title": "NASA Exoplanet Exploration",
+        "url": "https://exoplanets.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-space-014",
+      "title": "Gold was forged in cosmic catastrophes",
+      "category": "space",
+      "topic": "nucleosynthesis",
+      "tags": ["gold", "neutron stars", "nucleosynthesis", "elements"],
+      "summary": "Much of the universe's heavy elements, including gold, can be produced in extreme events such as neutron-star mergers.",
+      "whySurprising": "The gold in jewellery has a cosmic origin involving events far more violent than anything occurring on Earth.",
+      "explanation": "Elements heavier than iron are difficult to produce through ordinary stellar fusion. Neutron-rich environments can instead drive rapid neutron-capture processes that build very heavy nuclei.",
+      "deepDive": "The merger of two neutron stars creates an environment rich in neutrons and ejects material into space. Observations of kilonovae have provided strong evidence that such events manufacture heavy elements.",
+      "source": {
+        "title": "NASA: Neutron Star Mergers",
+        "url": "https://science.nasa.gov/universe/neutron-stars/"
+      }
+    },
+    {
+      "id": "fact-space-015",
+      "title": "Ordinary matter is only a small part of the universe",
+      "category": "space",
+      "topic": "cosmology",
+      "tags": ["dark matter", "dark energy", "cosmology", "matter"],
+      "summary": "Atoms—the ordinary matter making stars, planets and people—account for only a small fraction of the universe's total cosmic energy budget.",
+      "whySurprising": "Everything familiar to us is a minority component of the cosmos.",
+      "explanation": "Modern cosmological measurements indicate that ordinary matter contributes only around 5% of the universe's total mass-energy budget. Dark matter contributes roughly another quarter, while dark energy makes up most of the remainder.",
+      "deepDive": "Dark matter and dark energy are not merely labels for missing ordinary matter. Their nature remains one of the major open questions in modern cosmology.",
+      "source": {
+        "title": "NASA: What Is the Universe Made Of?",
+        "url": "https://science.nasa.gov/universe/"
+      }
+    },
+    {
+      "id": "fact-space-016",
+      "title": "GPS would fail without Einstein",
+      "category": "space",
+      "topic": "relativity",
+      "tags": ["GPS", "relativity", "time dilation", "satellites"],
+      "summary": "GPS satellite clocks experience relativistic time shifts that must be corrected for the system to work accurately.",
+      "whySurprising": "A theory about curved spacetime is quietly helping your phone determine where you are.",
+      "explanation": "Satellite clocks experience both special-relativistic effects from their motion and general-relativistic effects from Earth's gravity. The net difference is large enough that ignoring relativity would rapidly produce major positioning errors.",
+      "deepDive": "NASA notes that without relativistic corrections, GPS position errors would accumulate rapidly. Relativity is therefore not merely a philosophical description of time—it is part of a practical navigation technology.",
+      "source": {
+        "title": "NASA: Einstein's Theory of Relativity, Critical for GPS",
+        "url": "https://www.nasa.gov/image-article/einsteins-theory-of-relativity-critical-gps-seen-distant-stars/"
+      }
+    },
+    {
+      "id": "fact-space-017",
+      "title": "The Sun's corona is vastly hotter than its surface",
+      "category": "space",
+      "topic": "solar physics",
+      "tags": ["Sun", "corona", "plasma", "solar physics"],
+      "summary": "The Sun's visible surface is around 5,500–6,000°C, while its outer corona can reach millions of degrees.",
+      "whySurprising": "The atmosphere above the comparatively cooler surface is dramatically hotter.",
+      "explanation": "The corona is a tenuous plasma surrounding the Sun. Its extreme temperature is associated with processes involving the Sun's magnetic field, but exactly how energy is transferred into the corona remains an active research problem.",
+      "deepDive": "This is known as the coronal heating problem. Understanding it is important for explaining solar flares, the solar wind, and space weather.",
+      "source": {
+        "title": "NASA: Sun Facts",
+        "url": "https://science.nasa.gov/sun/facts/"
+      }
+    },
+    {
+      "id": "fact-space-018",
+      "title": "Apparently empty space is not simply nothing",
+      "category": "space",
+      "topic": "vacuum",
+      "tags": ["vacuum", "quantum fields", "space", "quantum physics"],
+      "summary": "Even regions of space that contain almost no ordinary matter are described by quantum fields and can exhibit measurable physical effects.",
+      "whySurprising": "The vacuum is not equivalent to a perfectly featureless void.",
+      "explanation": "Quantum field theory treats particles as excitations of underlying fields. Those fields exist throughout space, including regions where there are no ordinary particles. Vacuum states can therefore have physical properties and observable consequences.",
+      "deepDive": "Phenomena such as the Casimir effect demonstrate that quantum vacuum physics can influence measurable forces under appropriate conditions.",
+      "source": {
+        "title": "NASA: Quantum Physics",
+        "url": "https://science.nasa.gov/universe/"
+      }
+    },
+    {
+      "id": "fact-space-019",
+      "title": "Gravity makes time run differently",
+      "category": "space",
+      "topic": "general relativity",
+      "tags": ["time", "gravity", "relativity", "spacetime"],
+      "summary": "A clock deeper in a gravitational field accumulates less elapsed time than a clock farther away.",
+      "whySurprising": "Two otherwise identical clocks can disagree simply because they spent their lives at different gravitational potentials.",
+      "explanation": "General relativity predicts gravitational time dilation. The stronger the gravitational field, the more slowly a clock runs relative to a clock farther from the gravitating mass.",
+      "deepDive": "The effect is measurable even around Earth and becomes extreme near compact objects such as neutron stars and black holes.",
+      "source": {
+        "title": "NASA: General Relativity and the Nature of Spacetime",
+        "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/general-relativity-and-the-nature-of-spacetime/"
+      }
+    },
+    {
+      "id": "fact-space-020",
+      "title": "Astronomy is literally archaeology of the universe",
+      "category": "space",
+      "topic": "lookback time",
+      "tags": ["astronomy", "light", "time", "cosmology"],
+      "summary": "Every astronomical image records an earlier state of its source because light takes time to travel.",
+      "whySurprising": "The more distant the object, the farther back into cosmic history the telescope is seeing.",
+      "explanation": "There is no way to receive information instantaneously from a distant object. The light reaching a telescope today carries information about the object at the time that light was emitted.",
+      "deepDive": "This allows astronomy to reconstruct the history of stars, galaxies and the universe itself by observing objects at different distances and therefore different lookback times.",
+      "source": {
+        "title": "NASA: Hubble Deep Field",
+        "url": "https://science.nasa.gov/mission/hubble/"
+      }
+    },
+
+    {
+      "id": "fact-physics-001",
+      "title": "There is no universal cosmic 'now'",
+      "category": "physics",
+      "topic": "special relativity",
+      "tags": ["relativity", "simultaneity", "time", "spacetime"],
+      "summary": "Observers moving relative to one another can disagree about whether two distant events happened at the same time.",
+      "whySurprising": "Simultaneity, which feels completely universal in everyday life, is not absolute.",
+      "explanation": "Special relativity combines space and time into spacetime and makes the speed of light invariant for all inertial observers. As a consequence, different observers can assign different time coordinates to distant events.",
+      "deepDive": "This is not simply a measurement error. It is built into the geometry of spacetime and follows directly from Lorentz transformations.",
+      "source": {
+        "title": "NASA: General Relativity and the Nature of Spacetime",
+        "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/general-relativity-and-the-nature-of-spacetime/"
+      }
+    },
+    {
+      "id": "fact-physics-002",
+      "title": "Motion can slow a clock",
+      "category": "physics",
+      "topic": "time dilation",
+      "tags": ["relativity", "time dilation", "clocks", "speed"],
+      "summary": "A clock moving rapidly relative to you accumulates less elapsed time than an otherwise identical clock at rest relative to you.",
+      "whySurprising": "The clock itself is functioning normally; the difference comes from spacetime geometry.",
+      "explanation": "Special relativity predicts time dilation. As relative velocity increases, the amount of proper time experienced by the moving clock between two events differs from the coordinate time measured by another observer.",
+      "deepDive": "The effect has been measured using precise clocks and is essential when comparing clocks on fast-moving aircraft and satellites.",
+      "source": {
+        "title": "NASA: Special Relativity",
+        "url": "https://science.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-003",
+      "title": "Gravity changes the rate of clocks",
+      "category": "physics",
+      "topic": "gravitational time dilation",
+      "tags": ["gravity", "time", "relativity", "clocks"],
+      "summary": "Clocks at different gravitational potentials do not accumulate exactly the same amount of time.",
+      "whySurprising": "The effect exists even when the clocks are completely stationary relative to one another.",
+      "explanation": "General relativity describes gravity as curvature of spacetime. The geometry causes clocks deeper in a gravitational field to run more slowly relative to clocks farther away.",
+      "deepDive": "The effect has been measured using extremely precise atomic clocks and is large enough to matter for technologies such as GPS.",
+      "source": {
+        "title": "NASA: Einstein's Theory of Relativity",
+        "url": "https://science.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-004",
+      "title": "Younger time can exist upstairs",
+      "category": "physics",
+      "topic": "gravitational time dilation",
+      "tags": ["time", "gravity", "clocks", "relativity"],
+      "summary": "Two extremely precise clocks placed at different heights can accumulate slightly different amounts of elapsed time.",
+      "whySurprising": "Even the gravitational difference between floors of a building is, in principle, enough to affect time.",
+      "explanation": "The clock at the higher gravitational potential experiences slightly less gravitational time dilation than the clock lower down. Modern optical clocks are precise enough to measure such tiny differences.",
+      "deepDive": "This turns a prediction of general relativity into a laboratory measurement at human scales.",
+      "source": {
+        "title": "NIST: Relativity and Atomic Clocks",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-005",
+      "title": "Particles can cross barriers they should not cross",
+      "category": "physics",
+      "topic": "quantum tunnelling",
+      "tags": ["quantum mechanics", "tunnelling", "particles"],
+      "summary": "Quantum particles have a nonzero probability of appearing on the other side of an energy barrier that classical physics says they cannot cross.",
+      "whySurprising": "The particle does not need to possess enough classical energy to climb over the barrier.",
+      "explanation": "Quantum particles are described by wavefunctions rather than classical point trajectories. When a wavefunction extends into a classically forbidden region, there can be a finite probability of finding the particle beyond the barrier.",
+      "deepDive": "Quantum tunnelling contributes to radioactive decay, scanning tunnelling microscopy, semiconductor devices, and stellar fusion.",
+      "source": {
+        "title": "NASA: Quantum Physics",
+        "url": "https://science.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-006",
+      "title": "Particles can make an interference pattern one at a time",
+      "category": "physics",
+      "topic": "double-slit experiment",
+      "tags": ["quantum mechanics", "double slit", "interference", "photons"],
+      "summary": "Even when particles are sent through a double slit individually, repeated detections can build an interference pattern.",
+      "whySurprising": "The particles do not need to collide with one another to create the pattern.",
+      "explanation": "Quantum mechanics assigns amplitudes to alternative paths. When the experimental setup preserves the relevant coherence, those amplitudes interfere and determine the probability distribution of detections.",
+      "deepDive": "The experiment is one of the clearest demonstrations that quantum objects cannot always be understood as tiny classical particles following ordinary trajectories.",
+      "source": {
+        "title": "Nobel Prize: The Double-Slit Experiment",
+        "url": "https://www.nobelprize.org/"
+      }
+    },
+    {
+      "id": "fact-physics-007",
+      "title": "A single particle can interfere with itself",
+      "category": "physics",
+      "topic": "quantum interference",
+      "tags": ["quantum mechanics", "interference", "wave-particle duality"],
+      "summary": "A quantum particle sent through an interference experiment can produce a pattern that arises from interference between its possible paths.",
+      "whySurprising": "The pattern does not require two particles to meet and interfere with each other.",
+      "explanation": "In quantum mechanics, alternative paths are represented by amplitudes. When the paths remain coherent and indistinguishable, the amplitudes combine and produce interference in the probability distribution.",
+      "deepDive": "This is why saying that a quantum particle is simply a miniature classical ball can be deeply misleading.",
+      "source": {
+        "title": "NIST: Quantum Physics",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-008",
+      "title": "Entanglement connects measurements across distance",
+      "category": "physics",
+      "topic": "quantum entanglement",
+      "tags": ["quantum mechanics", "entanglement", "Bell", "information"],
+      "summary": "Entangled quantum systems can exhibit correlations that cannot be reproduced by ordinary classical hidden-variable models.",
+      "whySurprising": "The correlations persist even when the measurements are performed very far apart.",
+      "explanation": "An entangled quantum state describes the combined system rather than assigning independent classical states to each particle. Measurements on the two parts can therefore be strongly correlated.",
+      "deepDive": "Entanglement does not allow controllable faster-than-light communication. It instead reveals that quantum correlations are fundamentally different from classical correlations.",
+      "source": {
+        "title": "NASA: Quantum Entanglement",
+        "url": "https://www.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-009",
+      "title": "Quantum information can leak into the environment",
+      "category": "physics",
+      "topic": "decoherence",
+      "tags": ["quantum mechanics", "decoherence", "measurement", "environment"],
+      "summary": "Interactions with the environment can destroy the delicate phase relationships that allow quantum interference.",
+      "whySurprising": "A quantum system can appear increasingly classical without requiring a magical boundary between quantum and classical physics.",
+      "explanation": "When a quantum system becomes entangled with many environmental degrees of freedom, interference between certain alternatives becomes effectively inaccessible. This process is called decoherence.",
+      "deepDive": "Decoherence helps explain why macroscopic objects do not ordinarily display obvious quantum superpositions even though their constituent particles obey quantum mechanics.",
+      "source": {
+        "title": "NIST: Quantum Information",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-010",
+      "title": "The quantum vacuum is not ordinary nothingness",
+      "category": "physics",
+      "topic": "quantum field theory",
+      "tags": ["vacuum", "quantum fields", "quantum mechanics"],
+      "summary": "Quantum field theory describes empty space as a vacuum state of underlying fields, not as the complete absence of physical structure.",
+      "whySurprising": "Removing every ordinary particle does not remove the quantum fields themselves.",
+      "explanation": "In quantum field theory, particles are excitations of fields. The lowest-energy state of those fields is called the vacuum, and it can possess measurable physical properties.",
+      "deepDive": "Vacuum phenomena such as the Casimir effect show that quantum-field behaviour can have observable consequences.",
+      "source": {
+        "title": "CERN: Quantum Field Theory",
+        "url": "https://home.cern/"
+      }
+    },
+    {
+      "id": "fact-physics-011",
+      "title": "Absolute zero cannot be reached by ordinary cooling",
+      "category": "physics",
+      "topic": "thermodynamics",
+      "tags": ["absolute zero", "thermodynamics", "temperature"],
+      "summary": "No finite sequence of ordinary cooling processes can bring a system exactly to 0 kelvin.",
+      "whySurprising": "Scientists can approach absolute zero extremely closely, but reaching the exact endpoint is fundamentally different.",
+      "explanation": "The third law of thermodynamics places restrictions on reaching absolute zero. As systems approach 0 K, removing the remaining thermal energy becomes increasingly difficult.",
+      "deepDive": "Laboratories have reached temperatures extraordinarily close to absolute zero using techniques such as laser cooling and evaporative cooling, but exact absolute zero remains unattainable by finite procedures.",
+      "source": {
+        "title": "NIST: Temperature and Absolute Zero",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-012",
+      "title": "Negative temperatures can be hotter than positive ones",
+      "category": "physics",
+      "topic": "statistical mechanics",
+      "tags": ["temperature", "thermodynamics", "negative temperature", "entropy"],
+      "summary": "Special physical systems with an upper bound on energy can be assigned negative absolute temperatures.",
+      "whySurprising": "A negative temperature state is not colder than 0 K—it can actually be hotter than every positive-temperature state.",
+      "explanation": "Temperature in statistical mechanics is related to how entropy changes with energy. In systems with bounded energy spectra, population inversion can produce a negative value of temperature.",
+      "deepDive": "Such negative-temperature systems tend to transfer energy to positive-temperature systems, which is why 'negative' here represents a high-energy population arrangement rather than ordinary coldness.",
+      "source": {
+        "title": "NIST: Negative Temperature",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-013",
+      "title": "Gravity can bend massless light",
+      "category": "physics",
+      "topic": "general relativity",
+      "tags": ["light", "gravity", "relativity", "photons"],
+      "summary": "Light follows curved paths near massive objects even though photons have zero rest mass.",
+      "whySurprising": "Gravity does not need to pull on a photon's rest mass because general relativity describes the effect as curved spacetime.",
+      "explanation": "Light follows null paths through spacetime. When mass and energy curve spacetime, those paths can themselves be curved relative to distant observers.",
+      "deepDive": "Gravitational lensing is one of the most useful observational consequences of this effect.",
+      "source": {
+        "title": "NASA: General Relativity",
+        "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/general-relativity-and-the-nature-of-spacetime/"
+      }
+    },
+    {
+      "id": "fact-physics-014",
+      "title": "Light loses energy climbing out of gravity",
+      "category": "physics",
+      "topic": "gravitational redshift",
+      "tags": ["light", "gravity", "redshift", "relativity"],
+      "summary": "Light escaping a gravitational field can be observed at a lower frequency and therefore a longer wavelength.",
+      "whySurprising": "Gravity can change the measured energy of light without changing its local speed in vacuum.",
+      "explanation": "General relativity predicts gravitational redshift. As light moves between different gravitational potentials, observers at different locations can measure different frequencies for the same radiation.",
+      "deepDive": "Gravitational redshift has been measured in astronomical systems and is important in testing general relativity.",
+      "source": {
+        "title": "NASA: Gravitational Redshift",
+        "url": "https://www.nasa.gov/image-article/einsteins-theory-of-relativity-critical-gps-seen-distant-stars/"
+      }
+    },
+    {
+      "id": "fact-physics-015",
+      "title": "Mass and energy are two aspects of the same physics",
+      "category": "physics",
+      "topic": "mass-energy equivalence",
+      "tags": ["E=mc2", "mass", "energy", "relativity"],
+      "summary": "Einstein's E = mc² expresses the relationship between rest mass and energy.",
+      "whySurprising": "A tiny amount of mass corresponds to an enormous amount of energy because c² is so large.",
+      "explanation": "Rest mass contributes to the total energy of a system. In nuclear reactions, a small difference in mass between initial and final states can appear as released energy.",
+      "deepDive": "The equation does not mean that mass is literally 'made of energy' in every context; it expresses a precise relativistic relationship between a system's rest mass and its energy.",
+      "source": {
+        "title": "NASA: Einstein's Relativity",
+        "url": "https://science.nasa.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-016",
+      "title": "Matter has wavelengths",
+      "category": "physics",
+      "topic": "wave-particle duality",
+      "tags": ["matter waves", "quantum mechanics", "de Broglie"],
+      "summary": "Quantum mechanics assigns a wavelength to matter according to its momentum.",
+      "whySurprising": "Wave behaviour is not restricted to light; electrons and other matter can display interference and diffraction.",
+      "explanation": "Louis de Broglie proposed that particles have a wavelength λ = h/p, where h is Planck's constant and p is momentum. Experiments later confirmed wave-like behaviour for electrons and other particles.",
+      "deepDive": "For everyday objects the wavelength is far too tiny to notice, but for microscopic particles it can become experimentally significant.",
+      "source": {
+        "title": "Nobel Prize: Matter Waves",
+        "url": "https://www.nobelprize.org/"
+      }
+    },
+    {
+      "id": "fact-physics-017",
+      "title": "Ultracold atoms can behave as one quantum system",
+      "category": "physics",
+      "topic": "Bose-Einstein condensates",
+      "tags": ["Bose-Einstein condensate", "quantum mechanics", "ultracold atoms"],
+      "summary": "At extremely low temperatures, certain collections of atoms can occupy a shared quantum state known as a Bose-Einstein condensate.",
+      "whySurprising": "A huge collection of atoms can begin behaving collectively in a way normally associated with a single quantum object.",
+      "explanation": "Bosonic atoms cooled sufficiently close to absolute zero can occupy the same quantum state. Their wavefunctions overlap strongly, allowing macroscopic quantum behaviour to emerge.",
+      "deepDive": "Bose-Einstein condensates provide unusually clean laboratories for studying quantum mechanics at scales much larger than individual atoms.",
+      "source": {
+        "title": "NIST: Bose-Einstein Condensates",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-018",
+      "title": "Fields and particles are not the same thing",
+      "category": "physics",
+      "topic": "quantum field theory",
+      "tags": ["quantum field theory", "electromagnetic field", "photons"],
+      "summary": "A quantum field can exist in a state containing no photons, while photons are excitations of the electromagnetic field.",
+      "whySurprising": "The field is more fundamental in quantum field theory than the individual particle picture suggests.",
+      "explanation": "Quantum field theory associates fields with particle types. A photon is an excitation of the electromagnetic field, but the electromagnetic field does not disappear simply because no photons are present.",
+      "deepDive": "This field-based picture underlies the Standard Model of particle physics.",
+      "source": {
+        "title": "CERN: The Standard Model",
+        "url": "https://home.cern/science/physics/standard-model"
+      }
+    },
+    {
+      "id": "fact-physics-019",
+      "title": "You cannot know position and momentum with unlimited precision",
+      "category": "physics",
+      "topic": "uncertainty principle",
+      "tags": ["quantum mechanics", "uncertainty principle", "position", "momentum"],
+      "summary": "Quantum mechanics imposes a fundamental limit on how sharply position and momentum can simultaneously be defined.",
+      "whySurprising": "This is not simply a limitation caused by imperfect instruments.",
+      "explanation": "Position and momentum correspond to quantum operators that do not commute. Their uncertainties obey the Heisenberg uncertainty relation, meaning a state sharply localized in position necessarily has a spread of momentum.",
+      "deepDive": "The uncertainty principle is therefore a structural feature of quantum states, not merely an engineering problem with microscopes.",
+      "source": {
+        "title": "NIST: Quantum Mechanics",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-physics-020",
+      "title": "Matter and antimatter can annihilate",
+      "category": "physics",
+      "topic": "antimatter",
+      "tags": ["antimatter", "matter", "annihilation", "particle physics"],
+      "summary": "When a particle meets its corresponding antiparticle, their quantum numbers can cancel and their rest energy can emerge in other forms.",
+      "whySurprising": "Matter does not need to be converted into some mysterious new substance; the annihilation products can simply be other particles and radiation.",
+      "explanation": "Particle-antiparticle annihilation obeys conservation laws. For example, an electron and positron can annihilate into photons when the necessary conservation conditions are satisfied.",
+      "deepDive": "Antimatter is routinely produced in particle accelerators and has important applications in fundamental physics and medical imaging.",
+      "source": {
+        "title": "CERN: Antimatter",
+        "url": "https://home.cern/science/physics/antimatter"
+      }
+    },
+    {
+      "id": "fact-physics-021",
+      "title": "Temperature belongs to collections, not isolated particles",
+      "category": "physics",
+      "topic": "statistical mechanics",
+      "tags": ["temperature", "statistical mechanics", "thermodynamics", "particles"],
+      "summary": "Temperature is an emergent statistical property describing the behaviour of enormous numbers of microscopic degrees of freedom.",
+      "whySurprising": "An individual molecule does not simply 'have a temperature' in the same everyday sense that a room does.",
+      "explanation": "Temperature is related to the statistical distribution of energy among microscopic states. It becomes a useful macroscopic quantity when many particles are considered together.",
+      "deepDive": "This is one of the central ideas of statistical mechanics: familiar thermodynamic properties emerge from microscopic physics.",
+      "source": {
+        "title": "NIST: Thermodynamics",
+        "url": "https://www.nist.gov/"
+      }
+    },
+
+    {
+      "id": "fact-history-001",
+      "title": "Cleopatra was closer to the Moon landing than the Great Pyramid",
+      "category": "history",
+      "topic": "ancient Egypt",
+      "tags": ["Cleopatra", "Egypt", "Great Pyramid", "Moon landing"],
+      "summary": "Cleopatra lived roughly 2,500 years after the Great Pyramid was built but only about 2,000 years before the Apollo 11 Moon landing.",
+      "whySurprising": "The Great Pyramid feels like it belongs to the same broad 'ancient Egypt' period as Cleopatra, but an enormous amount of history separates them.",
+      "explanation": "The Great Pyramid was completed around 2560 BCE, while Cleopatra VII lived in the first century BCE. Apollo 11 landed on the Moon in 1969 CE.",
+      "deepDive": "The comparison exposes how compressed our mental image of ancient history can be: thousands of years of Egyptian history passed before Cleopatra ever lived.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Cleopatra",
+        "url": "https://www.britannica.com/biography/Cleopatra-queen-of-Egypt"
+      }
+    },
+    {
+      "id": "fact-history-002",
+      "title": "Oxford is older than the Aztec Empire",
+      "category": "history",
+      "topic": "chronology",
+      "tags": ["Oxford", "Aztec", "history", "chronology"],
+      "summary": "Teaching was taking place at Oxford by the late 11th century, while Tenochtitlan, the Aztec capital, was founded in the 14th century.",
+      "whySurprising": "A medieval European university predates the civilization most people imagine as a very ancient part of history.",
+      "explanation": "The University of Oxford developed gradually from medieval teaching communities. The Aztec Empire emerged much later, with Tenochtitlan founded in 1325 according to traditional chronology.",
+      "deepDive": "Comparisons like this show how misleading the labels 'ancient' and 'modern' can be when applied to different parts of world history.",
+      "source": {
+        "title": "University of Oxford: History",
+        "url": "https://www.ox.ac.uk/about/organisation/history"
+      }
+    },
+    {
+      "id": "fact-history-003",
+      "title": "The shortest war lasted about 38 minutes",
+      "category": "history",
+      "topic": "Anglo-Zanzibar War",
+      "tags": ["war", "Zanzibar", "British Empire", "history"],
+      "summary": "The Anglo-Zanzibar War of 1896 lasted roughly 38 minutes.",
+      "whySurprising": "A conflict can be officially a war yet be shorter than an ordinary school lesson.",
+      "explanation": "After a disputed succession in Zanzibar, British forces issued an ultimatum to Sultan Khalid bin Barghash. Fighting began when the deadline passed and ended quickly after the Sultan's forces were overwhelmed.",
+      "deepDive": "The exact duration is often given as around 38 to 45 minutes depending on how the beginning and end are defined.",
+      "source": {
+        "title": "Guinness World Records: Shortest War",
+        "url": "https://www.guinnessworldrecords.com/"
+      }
+    },
+    {
+      "id": "fact-history-004",
+      "title": "The Eiffel Tower was supposed to be temporary",
+      "category": "history",
+      "topic": "engineering history",
+      "tags": ["Eiffel Tower", "Paris", "engineering", "1889"],
+      "summary": "The Eiffel Tower was constructed for the 1889 Exposition Universelle and was originally intended to stand for only a limited period.",
+      "whySurprising": "One of the world's most recognizable permanent landmarks began life as an exhibition structure with an expiration date.",
+      "explanation": "The tower was designed by Gustave Eiffel's company for the 1889 World's Fair. Its continued usefulness for communications and scientific experiments helped it survive beyond its originally intended lifespan.",
+      "deepDive": "Its height made it valuable for radio experiments and later communications, giving practical reasons for preserving a structure that many initially considered temporary.",
+      "source": {
+        "title": "Eiffel Tower Official Site: History",
+        "url": "https://www.toureiffel.paris/en/the-monument/history"
+      }
+    },
+    {
+      "id": "fact-history-005",
+      "title": "The Great Pyramid used to be brilliantly white",
+      "category": "history",
+      "topic": "ancient Egypt",
+      "tags": ["Great Pyramid", "Egypt", "architecture", "limestone"],
+      "summary": "The Great Pyramid was originally covered with polished white limestone casing stones.",
+      "whySurprising": "The weathered stepped appearance familiar today is not how the pyramid originally looked.",
+      "explanation": "Fine Tura limestone formed a smooth outer casing around much of the pyramid. The polished surface would have reflected sunlight strongly, producing a striking appearance.",
+      "deepDive": "Most of the casing stones were removed over centuries, including for later construction, leaving the rougher underlying core masonry visible.",
+      "source": {
+        "title": "Smithsonian: Great Pyramid",
+        "url": "https://www.si.edu/"
+      }
+    },
+    {
+      "id": "fact-history-006",
+      "title": "Ancient Romans collected urine for laundry",
+      "category": "history",
+      "topic": "Roman technology",
+      "tags": ["Rome", "urine", "laundry", "chemistry"],
+      "summary": "Roman laundries used collected urine because its breakdown products contain ammonia, which can help clean fabrics.",
+      "whySurprising": "A substance we associate with waste was once a useful industrial cleaning material.",
+      "explanation": "Urine contains urea, which breaks down and can produce ammonia. Roman fullers used diluted urine in washing processes to help remove dirt and grease from textiles.",
+      "deepDive": "The practice became sufficiently organized that urine collection was part of urban life, and Emperor Vespasian famously imposed a tax connected with the collection and use of urine.",
+      "source": {
+        "title": "Smithsonian: Historical Uses of Urine",
+        "url": "https://www.smithsonianmag.com/science-nature/from-gunpowder-to-teeth-whitener-the-science-behind-historic-uses-of-urine-442390/"
+      }
+    },
+    {
+      "id": "fact-history-007",
+      "title": "Roman concrete can interact with seawater and strengthen",
+      "category": "history",
+      "topic": "Roman engineering",
+      "tags": ["Roman concrete", "concrete", "seawater", "engineering"],
+      "summary": "Some Roman marine concrete structures became stronger through chemical reactions involving volcanic materials and seawater.",
+      "whySurprising": "Modern intuition often treats water exposure as something that simply destroys concrete.",
+      "explanation": "Roman concrete commonly used volcanic ash known as pozzolana. In marine environments, seawater could participate in reactions that formed minerals such as aluminum-rich tobermorite, helping reinforce the material.",
+      "deepDive": "The exact chemistry varies among structures and formulations, and Roman concrete was not universally superior to modern concrete. Its durability is nevertheless a fascinating example of ancient materials engineering.",
+      "source": {
+        "title": "University of Utah: Roman Concrete",
+        "url": "https://www.utah.edu/"
+      }
+    },
+    {
+      "id": "fact-history-008",
+      "title": "Vikings reached North America around 1021",
+      "category": "history",
+      "topic": "Viking exploration",
+      "tags": ["Vikings", "North America", "Newfoundland", "archaeology"],
+      "summary": "Norse people were living and working at L'Anse aux Meadows in Newfoundland by 1021 CE.",
+      "whySurprising": "This places Europeans in North America nearly five centuries before Columbus's 1492 voyage.",
+      "explanation": "Archaeological evidence at L'Anse aux Meadows shows Norse activity, including ironworking and woodworking. Radiocarbon evidence tied to a cosmic-ray event allowed researchers to date wooden artifacts to exactly 1021 CE.",
+      "deepDive": "The settlement appears to have been relatively short-lived, but it provides the earliest securely dated evidence of Europeans reaching the Americas.",
+      "source": {
+        "title": "Smithsonian: Vikings in Newfoundland",
+        "url": "https://www.smithsonianmag.com/science-nature/new-dating-method-shows-vikings-occupied-newfoundland-in-1021-ce-180978903/"
+      }
+    },
+    {
+      "id": "fact-history-009",
+      "title": "The word salary has a connection to salt",
+      "category": "history",
+      "topic": "language",
+      "tags": ["salary", "salt", "Latin", "etymology"],
+      "summary": "The English word 'salary' ultimately comes from the Latin word salarium, associated with payments or allowances connected with salt.",
+      "whySurprising": "An everyday word about wages carries a linguistic trace of how valuable salt once was.",
+      "explanation": "The Latin root sal relates to salt. The precise historical relationship between Roman soldiers' pay and salt is debated, so the popular claim that Roman soldiers were simply 'paid in salt' is an oversimplification.",
+      "deepDive": "What survives with confidence is the linguistic connection between salarium and the broader economic importance of salt in the ancient world.",
+      "source": {
+        "title": "Merriam-Webster: Salary",
+        "url": "https://www.merriam-webster.com/dictionary/salary"
+      }
+    },
+    {
+      "id": "fact-history-010",
+      "title": "The Inca recorded information using knots",
+      "category": "history",
+      "topic": "Inca civilization",
+      "tags": ["Inca", "quipu", "record keeping", "mathematics"],
+      "summary": "The Inca used quipus—arrangements of knotted cords—to record numerical information and possibly other kinds of information.",
+      "whySurprising": "A huge empire maintained administrative records without a conventional written script like alphabetic or logographic writing.",
+      "explanation": "Quipus used cord colour, knot type, position and arrangement to encode information. Historical evidence confirms their use in administration and numerical record keeping.",
+      "deepDive": "Researchers are still investigating how much non-numerical information quipus could encode. Hundreds of surviving examples remain important evidence of Inca information technology.",
+      "source": {
+        "title": "Smithsonian: Quipu",
+        "url": "https://www.si.edu/collections/snapshot/quipu"
+      }
+    },
+    {
+      "id": "fact-history-011",
+      "title": "A volcano can change the climate of the planet",
+      "category": "history",
+      "topic": "volcanic climate effects",
+      "tags": ["volcanoes", "climate", "Tambora", "atmosphere"],
+      "summary": "Large volcanic eruptions can temporarily cool global climate by injecting particles and gases high into the atmosphere.",
+      "whySurprising": "A single geological event can influence weather and agriculture across enormous parts of the planet.",
+      "explanation": "Major eruptions can inject sulfur dioxide into the stratosphere, where it forms sulfate aerosols that reflect some incoming sunlight. The resulting cooling can last for months or several years.",
+      "deepDive": "The 1815 eruption of Mount Tambora was followed by severe climatic disruptions, including the famous 'Year Without a Summer' in 1816.",
+      "source": {
+        "title": "USGS: Volcanoes and Climate",
+        "url": "https://www.usgs.gov/"
+      }
+    },
+    {
+      "id": "fact-history-012",
+      "title": "Ice contains trapped samples of ancient air",
+      "category": "history",
+      "topic": "paleoclimate",
+      "tags": ["ice cores", "climate", "atmosphere", "Earth history"],
+      "summary": "Tiny bubbles trapped inside ancient ice preserve samples of Earth's atmosphere from thousands of years ago.",
+      "whySurprising": "A piece of ice can contain physical samples of air that existed long before human civilization.",
+      "explanation": "Snow accumulates in polar regions and is gradually compressed into ice. Air becomes trapped in bubbles during this process, preserving gases such as carbon dioxide and methane.",
+      "deepDive": "Scientists drill ice cores and analyse their chemical composition, isotopes and trapped gases to reconstruct past climate conditions.",
+      "source": {
+        "title": "NASA: Ice Cores",
+        "url": "https://climate.nasa.gov/"
+      }
+    },
+
+    {
+      "id": "fact-biology-001",
+      "title": "Molecular machines literally walk inside your cells",
+      "category": "biology",
+      "topic": "cellular transport",
+      "tags": ["kinesin", "motor proteins", "cells", "molecular machines"],
+      "summary": "Motor proteins such as kinesin move cellular cargo by taking discrete steps along microscopic cytoskeletal tracks.",
+      "whySurprising": "Inside every cell is a microscopic transportation system powered by molecular machines.",
+      "explanation": "Kinesin proteins bind cargo and move along microtubules using energy released from ATP. Their conformational changes allow them to take repeated steps along the molecular track.",
+      "deepDive": "Other motor proteins, including dynein and myosin, perform related forms of molecular mechanical work. These systems demonstrate how chemistry can produce controlled mechanical motion at nanometre scales.",
+      "source": {
+        "title": "NCBI Bookshelf: Molecular Motors",
+        "url": "https://www.ncbi.nlm.nih.gov/books/"
+      }
+    },
+    {
+      "id": "fact-biology-002",
+      "title": "Bacteria can exchange genes without reproducing",
+      "category": "biology",
+      "topic": "horizontal gene transfer",
+      "tags": ["bacteria", "DNA", "horizontal gene transfer", "evolution"],
+      "summary": "Bacteria can acquire genetic material from other organisms through processes such as transformation, transduction and conjugation.",
+      "whySurprising": "Genetic information does not always have to pass from parent to offspring.",
+      "explanation": "Horizontal gene transfer allows DNA to move between cells outside ordinary reproduction. In some cases, this can rapidly spread useful traits through bacterial populations.",
+      "deepDive": "The phenomenon is especially important in bacterial evolution because genes can sometimes move between otherwise distantly related lineages.",
+      "source": {
+        "title": "NCBI: Horizontal Gene Transfer",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      }
+    },
+    {
+      "id": "fact-biology-003",
+      "title": "CRISPR began as a bacterial immune system",
+      "category": "biology",
+      "topic": "CRISPR",
+      "tags": ["CRISPR", "bacteria", "viruses", "genetics"],
+      "summary": "Bacteria and archaea can use CRISPR-associated systems to recognize and defend against invading genetic material.",
+      "whySurprising": "One of the most powerful modern genetic technologies originated as a microbial defence mechanism.",
+      "explanation": "Some microbes capture fragments of invading genetic material and store sequence information in CRISPR arrays. CRISPR-associated proteins can later use this information to recognize matching sequences.",
+      "deepDive": "Scientists adapted components of these systems into programmable gene-editing technologies, transforming molecular biology.",
+      "source": {
+        "title": "NCBI: CRISPR-Cas Systems",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      }
+    },
+    {
+      "id": "fact-biology-004",
+      "title": "Some fungi can manipulate insect behaviour",
+      "category": "biology",
+      "topic": "host manipulation",
+      "tags": ["fungi", "insects", "parasites", "behaviour"],
+      "summary": "Certain parasitic fungi alter infected insects in ways that can improve the fungus's chances of reproduction and transmission.",
+      "whySurprising": "A microorganism can influence the behaviour of a much larger animal without possessing a nervous system of its own.",
+      "explanation": "Some fungi infect insects and produce chemicals and physiological changes that alter host behaviour. In documented systems, infected insects can end up in locations favourable for fungal growth and spore dispersal.",
+      "deepDive": "The exact mechanisms differ among fungal species, and scientists continue to investigate how fungal molecules interact with insect nervous and hormonal systems.",
+      "source": {
+        "title": "Nature: Fungal Host Manipulation",
+        "url": "https://www.nature.com/articles/s41396-021-01010-z"
+      }
+    },
+    {
+      "id": "fact-biology-005",
+      "title": "Plants can warn nearby plants chemically",
+      "category": "biology",
+      "topic": "plant signalling",
+      "tags": ["plants", "chemical signalling", "volatile compounds", "defence"],
+      "summary": "Plants under attack can release volatile chemicals that influence defensive responses in nearby plants.",
+      "whySurprising": "Plants have no nervous systems, yet they can transmit information through chemical signals.",
+      "explanation": "Herbivore damage can cause plants to release volatile organic compounds. Nearby plants may detect some of these molecules and alter their own defensive chemistry.",
+      "deepDive": "This is not plant 'speech' in the human sense. It is a complex chemical signalling network involving plant physiology, microbes, insects and environmental conditions.",
+      "source": {
+        "title": "Nature Plants: Plant Signalling",
+        "url": "https://www.nature.com/"
+      }
+    },
+    {
+      "id": "fact-biology-006",
+      "title": "Your mitochondria are descendants of ancient bacteria",
+      "category": "biology",
+      "topic": "endosymbiosis",
+      "tags": ["mitochondria", "evolution", "bacteria", "DNA"],
+      "summary": "Mitochondria originated from bacteria that entered into a long-term symbiotic relationship with an ancestral eukaryotic cell.",
+      "whySurprising": "A structure inside almost every complex cell is the evolutionary descendant of an organism that was once independent.",
+      "explanation": "Mitochondria retain their own DNA and bacterial-like features. The endosymbiotic theory explains these characteristics as remnants of an ancient partnership that became permanent.",
+      "deepDive": "Over evolutionary time, many genes originally associated with the ancestral bacterium moved to the host cell's nucleus, leaving mitochondria as highly integrated descendants of their bacterial ancestor.",
+      "source": {
+        "title": "NCBI Bookshelf: Mitochondria and Endosymbiosis",
+        "url": "https://www.ncbi.nlm.nih.gov/books/"
+      }
+    },
+    {
+      "id": "fact-biology-007",
+      "title": "Your genome contains fossils of ancient viruses",
+      "category": "biology",
+      "topic": "genome evolution",
+      "tags": ["DNA", "viruses", "genome", "evolution"],
+      "summary": "Ancient viral genetic sequences became incorporated into the genomes of our ancestors and can still be found in human DNA.",
+      "whySurprising": "Parts of the genetic material you inherited are molecular remnants of infections that happened deep in evolutionary history.",
+      "explanation": "Retroviruses can insert copies of their genetic material into host genomes. If such an insertion occurs in a reproductive cell lineage, it can be inherited by descendants.",
+      "deepDive": "Many endogenous viral elements have accumulated mutations and no longer behave as viruses. Some have nevertheless been repurposed during evolution for useful biological functions.",
+      "source": {
+        "title": "NCBI: Endogenous Retroviruses",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      }
+    },
+    {
+      "id": "fact-biology-008",
+      "title": "Human chromosome 2 is a record of an ancient fusion",
+      "category": "biology",
+      "topic": "human evolution",
+      "tags": ["chromosome 2", "evolution", "genetics", "apes"],
+      "summary": "Human chromosome 2 contains molecular evidence consistent with the fusion of two ancestral ape chromosomes.",
+      "whySurprising": "A feature of the human genome preserves evidence of an ancient structural change in our evolutionary lineage.",
+      "explanation": "Other great apes possess two chromosomes corresponding to the two ancestral chromosomes that fused in the lineage leading to humans. Human chromosome 2 contains remnants of telomere-like sequences and an inactive centromere consistent with such a fusion.",
+      "deepDive": "Chromosome fusion is a natural evolutionary process and provides a particularly striking example of how genome structure preserves evolutionary history.",
+      "source": {
+        "title": "NHGRI: Chromosome 2 Fusion",
+        "url": "https://www.genome.gov/"
+      }
+    },
+    {
+      "id": "fact-biology-009",
+      "title": "Birds are living dinosaurs",
+      "category": "biology",
+      "topic": "evolution",
+      "tags": ["birds", "dinosaurs", "evolution", "theropods"],
+      "summary": "Modern birds are the surviving members of the theropod dinosaur lineage.",
+      "whySurprising": "Dinosaurs did not completely disappear at the end of the Cretaceous; one branch continued into the present.",
+      "explanation": "Fossil anatomy, feathers, skeletal features and later molecular evidence place birds within theropod dinosaurs. The distinction between 'birds' and 'dinosaurs' is therefore evolutionary rather than absolute.",
+      "deepDive": "In cladistic terms, birds are dinosaurs in the same way that humans are mammals and whales are mammals.",
+      "source": {
+        "title": "Smithsonian: Birds and Dinosaurs",
+        "url": "https://naturalhistory.si.edu/"
+      }
+    },
+    {
+      "id": "fact-biology-010",
+      "title": "Evolution repeatedly invents similar solutions",
+      "category": "biology",
+      "topic": "convergent evolution",
+      "tags": ["evolution", "convergence", "eyes", "adaptation"],
+      "summary": "Unrelated organisms can independently evolve similar structures or solutions to similar environmental problems.",
+      "whySurprising": "Evolution has no master blueprint, yet similar designs can appear repeatedly.",
+      "explanation": "Natural selection acts on available variation. When different lineages face similar pressures, certain physical or functional solutions can be favoured independently.",
+      "deepDive": "Camera-like eyes evolved independently in several animal groups, while streamlined body shapes evolved repeatedly in animals living in water.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Convergent Evolution",
+        "url": "https://www.britannica.com/science/convergent-evolution"
+      }
+    },
+    {
+      "id": "fact-biology-011",
+      "title": "Octopus intelligence evolved on a completely different branch",
+      "category": "biology",
+      "topic": "animal intelligence",
+      "tags": ["octopus", "intelligence", "evolution", "cephalopods"],
+      "summary": "Octopuses developed complex nervous systems and sophisticated behaviour independently from vertebrate animals.",
+      "whySurprising": "A highly intelligent animal can evolve on an evolutionary branch separated from ours by hundreds of millions of years.",
+      "explanation": "Cephalopods and vertebrates have very different evolutionary histories, yet both evolved large and complex nervous systems. Octopuses display problem-solving, learning and flexible behaviour.",
+      "deepDive": "Their intelligence is particularly interesting because their bodies and nervous systems are organized very differently from those of mammals.",
+      "source": {
+        "title": "Smithsonian: Cephalopod Intelligence",
+        "url": "https://ocean.si.edu/"
+      }
+    },
+
+    {
+      "id": "fact-math-001",
+      "title": "There are different sizes of infinity",
+      "category": "mathematics",
+      "topic": "set theory",
+      "tags": ["infinity", "Cantor", "set theory", "real numbers"],
+      "summary": "The infinity of the real numbers is strictly larger than the infinity of the natural numbers.",
+      "whySurprising": "Infinity is not a single size; mathematics contains genuinely different magnitudes of infinity.",
+      "explanation": "The natural numbers can be listed as 1, 2, 3, and so on, making them countably infinite. Cantor's diagonal argument proves that no such list can contain every real number between 0 and 1.",
+      "deepDive": "This distinction between countable and uncountable infinity fundamentally changed mathematics and led to modern set theory.",
+      "source": {
+        "title": "Wolfram MathWorld: Cantor's Diagonal Argument",
+        "url": "https://mathworld.wolfram.com/CantorDiagonalArgument.html"
+      }
+    },
+    {
+      "id": "fact-math-002",
+      "title": "Most real numbers can never be individually described",
+      "category": "mathematics",
+      "topic": "countability",
+      "tags": ["real numbers", "infinity", "countability", "description"],
+      "summary": "There are uncountably many real numbers but only countably many finite descriptions that can be written down.",
+      "whySurprising": "Almost every real number is mathematically guaranteed to exist but cannot be uniquely specified by any finite description.",
+      "explanation": "Every finite string of symbols can be encoded as a natural number, so the collection of all finite descriptions is countable. The real numbers, however, are uncountable.",
+      "deepDive": "Therefore there must be vastly more real numbers than describable real numbers. This is a pure mathematical result, not a statement about our current technology.",
+      "source": {
+        "title": "Wolfram MathWorld: Countable Set",
+        "url": "https://mathworld.wolfram.com/CountableSet.html"
+      }
+    },
+    {
+      "id": "fact-math-003",
+      "title": "An infinite set can equal one of its proper subsets",
+      "category": "mathematics",
+      "topic": "infinity",
+      "tags": ["infinity", "sets", "Hilbert hotel"],
+      "summary": "The natural numbers can be paired one-to-one with the even numbers even though the even numbers form only part of the natural numbers.",
+      "whySurprising": "For finite sets, a proper subset must always contain fewer elements; infinite sets behave differently.",
+      "explanation": "Map each natural number n to 2n. Every natural number corresponds to exactly one even number, and every even number is reached.",
+      "deepDive": "This strange property is one reason mathematicians define the size of infinite sets using one-to-one correspondences rather than ordinary counting.",
+      "source": {
+        "title": "Wolfram MathWorld: Infinite Set",
+        "url": "https://mathworld.wolfram.com/InfiniteSet.html"
+      }
+    },
+    {
+      "id": "fact-math-004",
+      "title": "Probability zero does not always mean impossible",
+      "category": "mathematics",
+      "topic": "probability",
+      "tags": ["probability", "continuous distributions", "measure"],
+      "summary": "In a continuous probability distribution, an individual possible outcome can have probability exactly zero.",
+      "whySurprising": "In everyday thinking, probability zero sounds equivalent to impossibility.",
+      "explanation": "For a continuous random variable, probability is assigned to intervals rather than individual points. Each exact point can have probability zero even though one exact point must occur when the variable is measured.",
+      "deepDive": "This is a consequence of how continuous probability measures work and is one of the clearest places where discrete intuition fails.",
+      "source": {
+        "title": "Wolfram MathWorld: Continuous Probability Distribution",
+        "url": "https://mathworld.wolfram.com/ContinuousProbabilityDistribution.html"
+      }
+    },
+    {
+      "id": "fact-math-005",
+      "title": "A deterministic system can become unpredictable",
+      "category": "mathematics",
+      "topic": "chaos theory",
+      "tags": ["chaos", "dynamical systems", "sensitivity", "determinism"],
+      "summary": "Chaotic systems obey deterministic equations but can be extraordinarily sensitive to tiny differences in their initial conditions.",
+      "whySurprising": "Perfectly defined rules do not necessarily make long-term prediction easy.",
+      "explanation": "In a chaotic system, nearby initial states can diverge rapidly. Even if the equations are completely deterministic, finite measurement precision can make long-term prediction effectively impossible.",
+      "deepDive": "Chaos therefore sits in an intriguing middle ground: the system is not random, but its future can become practically unpredictable.",
+      "source": {
+        "title": "Wolfram MathWorld: Chaos",
+        "url": "https://mathworld.wolfram.com/Chaos.html"
+      }
+    },
+    {
+      "id": "fact-math-006",
+      "title": "A tiny equation creates the Mandelbrot set",
+      "category": "mathematics",
+      "topic": "fractals",
+      "tags": ["Mandelbrot set", "fractals", "complex numbers", "iteration"],
+      "summary": "Repeatedly applying the simple rule z → z² + c produces the extraordinarily intricate Mandelbrot set.",
+      "whySurprising": "An equation with only a few symbols can generate structure of astonishing complexity.",
+      "explanation": "For each complex number c, the iteration starts with z = 0 and repeatedly calculates z² + c. Points for which the sequence remains bounded belong to the Mandelbrot set.",
+      "deepDive": "The boundary between bounded and escaping behaviour contains structure at arbitrarily fine scales, making the set one of the most famous examples of mathematical emergence.",
+      "source": {
+        "title": "Wolfram MathWorld: Mandelbrot Set",
+        "url": "https://mathworld.wolfram.com/MandelbrotSet.html"
+      }
+    },
+    {
+      "id": "fact-math-007",
+      "title": "A curve can be continuous everywhere but smooth nowhere",
+      "category": "mathematics",
+      "topic": "analysis",
+      "tags": ["Weierstrass function", "calculus", "continuity", "fractals"],
+      "summary": "The Weierstrass function is continuous at every point but differentiable at no point.",
+      "whySurprising": "It destroys the intuitive idea that a curve with no jumps should necessarily have a well-defined slope.",
+      "explanation": "Continuity only requires that small changes in input produce small changes in output. Differentiability requires a much stronger local linear approximation.",
+      "deepDive": "The Weierstrass function was historically important because it demonstrated that pathological-looking behaviour is fully compatible with rigorous mathematics.",
+      "source": {
+        "title": "Wolfram MathWorld: Weierstrass Function",
+        "url": "https://mathworld.wolfram.com/WeierstrassFunction.html"
+      }
+    },
+    {
+      "id": "fact-math-008",
+      "title": "A shape can have finite area but infinite perimeter",
+      "category": "mathematics",
+      "topic": "fractals",
+      "tags": ["Koch snowflake", "fractals", "geometry", "infinity"],
+      "summary": "The Koch snowflake encloses a finite area while its boundary has infinite length.",
+      "whySurprising": "A finite region can have a boundary that becomes infinitely long.",
+      "explanation": "Each stage replaces every line segment with a more complicated pattern that increases the perimeter by a fixed factor. The perimeter therefore diverges, while the added areas form a convergent geometric series.",
+      "deepDive": "This demonstrates how area and boundary length can behave very differently when geometry becomes infinitely detailed.",
+      "source": {
+        "title": "Wolfram MathWorld: Koch Snowflake",
+        "url": "https://mathworld.wolfram.com/KochSnowflake.html"
+      }
+    },
+    {
+      "id": "fact-math-009",
+      "title": "Some fractals have non-integer dimensions",
+      "category": "mathematics",
+      "topic": "fractal dimension",
+      "tags": ["fractals", "dimension", "geometry"],
+      "summary": "Fractal structures can have dimensions between ordinary integers such as 1 and 2.",
+      "whySurprising": "Dimension does not always have to be a whole number.",
+      "explanation": "Fractal dimension measures how an object's detail scales with the size of the measuring scale. For example, the Koch curve has dimension log(4)/log(3), which is between 1 and 2.",
+      "deepDive": "Fractal dimension provides a quantitative way of describing structures that are more complicated than ordinary lines but do not completely fill a plane.",
+      "source": {
+        "title": "Wolfram MathWorld: Fractal Dimension",
+        "url": "https://mathworld.wolfram.com/FractalDimension.html"
+      }
+    },
+    {
+      "id": "fact-math-010",
+      "title": "The three-body problem can become chaotic",
+      "category": "mathematics",
+      "topic": "celestial mechanics",
+      "tags": ["three-body problem", "chaos", "gravity", "dynamical systems"],
+      "summary": "Three objects interacting gravitationally can produce extraordinarily complicated trajectories that are highly sensitive to their initial conditions.",
+      "whySurprising": "Newton's gravitational law is simple to write down, yet adding just one more body can make the long-term problem dramatically harder.",
+      "explanation": "The equations of motion for three gravitating bodies are deterministic, but their solutions can display chaotic behaviour. Unlike the two-body problem, there is no general simple closed-form solution.",
+      "deepDive": "The three-body problem connects mathematics, astronomy and chaos theory and remains central to understanding complicated gravitational systems.",
+      "source": {
+        "title": "Wolfram MathWorld: Three-Body Problem",
+        "url": "https://mathworld.wolfram.com/Three-BodyProblem.html"
+      }
+    },
+
+    {
+      "id": "fact-chem-001",
+      "title": "Diamond is not the most stable form of carbon",
+      "category": "chemistry",
+      "topic": "thermodynamics",
+      "tags": ["diamond", "graphite", "carbon", "thermodynamics"],
+      "summary": "At ordinary pressures, graphite is thermodynamically more stable than diamond.",
+      "whySurprising": "Diamonds do not spontaneously turn into graphite because the transformation is kinetically extremely slow.",
+      "explanation": "Diamond and graphite are different arrangements of carbon atoms. Under ordinary conditions graphite has lower Gibbs free energy, but converting diamond into graphite requires overcoming a substantial kinetic barrier.",
+      "deepDive": "This is a beautiful example of the difference between thermodynamics and kinetics: a reaction can be energetically favourable yet practically invisible because its rate is extraordinarily small.",
+      "source": {
+        "title": "Chemistry World: Diamond and Graphite",
+        "url": "https://www.chemistryworld.com/"
+      }
+    },
+    {
+      "id": "fact-chem-002",
+      "title": "Chemical equilibrium never means the reactions stop",
+      "category": "chemistry",
+      "topic": "chemical equilibrium",
+      "tags": ["equilibrium", "reaction rates", "chemistry"],
+      "summary": "At dynamic equilibrium, forward and reverse reactions continue even though macroscopic concentrations remain constant.",
+      "whySurprising": "A mixture can look completely unchanged while molecules are still reacting continuously.",
+      "explanation": "At equilibrium, the forward and reverse reaction rates become equal. Molecules continue to react, but the overall composition no longer changes with time.",
+      "deepDive": "This is why equilibrium is called dynamic rather than static. It is a balance of opposing processes, not a state in which chemistry has stopped.",
+      "source": {
+        "title": "OpenStax Chemistry: Equilibrium",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    },
+    {
+      "id": "fact-chem-003",
+      "title": "Catalysts change the route, not the destination",
+      "category": "chemistry",
+      "topic": "catalysis",
+      "tags": ["catalysts", "activation energy", "reaction kinetics"],
+      "summary": "A catalyst speeds up a reaction by providing an alternative pathway with a lower activation barrier.",
+      "whySurprising": "A catalyst does not simply inject energy into a reaction or make the final products more energetically favourable.",
+      "explanation": "Catalysts alter the reaction mechanism and lower the activation energy for the relevant steps. They are regenerated during the overall process and do not change the equilibrium constant.",
+      "deepDive": "This distinction explains why catalysts can make a reaction reach equilibrium faster without changing the final equilibrium composition.",
+      "source": {
+        "title": "IUPAC Gold Book: Catalyst",
+        "url": "https://goldbook.iupac.org/"
+      }
+    },
+    {
+      "id": "fact-chem-004",
+      "title": "Some chemical reactions oscillate",
+      "category": "chemistry",
+      "topic": "chemical oscillations",
+      "tags": ["oscillating reactions", "Belousov-Zhabotinsky", "reaction kinetics"],
+      "summary": "Certain chemical systems can repeatedly change composition instead of simply moving toward a single final state.",
+      "whySurprising": "Chemistry can produce behaviour that looks almost like a biological rhythm despite involving only reacting molecules.",
+      "explanation": "In oscillating reactions, nonlinear feedback between reaction intermediates causes concentrations to rise and fall periodically. The Belousov-Zhabotinsky reaction is a famous example.",
+      "deepDive": "These systems demonstrate how simple chemical rules can generate complex temporal patterns and helped establish the importance of nonlinear dynamics in chemistry.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Belousov-Zhabotinsky Reaction",
+        "url": "https://www.britannica.com/science/Belousov-Zhabotinsky-reaction"
+      }
+    },
+    {
+      "id": "fact-chem-005",
+      "title": "Water can be both an acid and a base",
+      "category": "chemistry",
+      "topic": "acid-base chemistry",
+      "tags": ["water", "acids", "bases", "protons"],
+      "summary": "A water molecule can donate a proton to another molecule or accept one depending on the chemical environment.",
+      "whySurprising": "The same molecule can play opposite acid-base roles.",
+      "explanation": "Under the Brønsted-Lowry definition, an acid donates a proton and a base accepts one. Water can do either, making it amphiprotic.",
+      "deepDive": "Even pure water undergoes continual proton exchange between molecules, producing tiny equilibrium concentrations of hydronium and hydroxide ions.",
+      "source": {
+        "title": "OpenStax Chemistry: Acid-Base Reactions",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    },
+    {
+      "id": "fact-chem-006",
+      "title": "One pH unit means ten times the hydrogen-ion concentration",
+      "category": "chemistry",
+      "topic": "pH",
+      "tags": ["pH", "acids", "bases", "logarithms"],
+      "summary": "Because pH is logarithmic, a one-unit decrease in pH corresponds to a tenfold increase in hydrogen-ion activity under the standard definition.",
+      "whySurprising": "A seemingly small numerical change on the pH scale represents a large chemical change.",
+      "explanation": "pH is defined using a negative logarithm of hydrogen-ion activity. Therefore equal steps on the pH scale correspond to multiplicative rather than additive changes.",
+      "deepDive": "This logarithmic structure is why pH 3 is not merely 'twice as acidic' as pH 6; the underlying concentration scale differs by orders of magnitude.",
+      "source": {
+        "title": "IUPAC Gold Book: pH",
+        "url": "https://goldbook.iupac.org/terms/view/P04524"
+      }
+    },
+    {
+      "id": "fact-chem-007",
+      "title": "Relativity helps make gold look gold",
+      "category": "chemistry",
+      "topic": "relativistic chemistry",
+      "tags": ["gold", "relativity", "electrons", "quantum chemistry"],
+      "summary": "Relativistic effects alter the electron energies in heavy atoms such as gold and contribute to its distinctive colour.",
+      "whySurprising": "Einstein's relativity is not only important near stars—it subtly affects the appearance of a familiar metal.",
+      "explanation": "Electrons in heavy atoms move in strong nuclear electric fields. Relativistic corrections alter their energy levels, changing which wavelengths of visible light are absorbed.",
+      "deepDive": "For gold, these effects shift electronic transitions enough that blue light is absorbed more strongly, leaving reflected light with its characteristic yellowish appearance.",
+      "source": {
+        "title": "Chemistry World: Relativistic Chemistry",
+        "url": "https://www.chemistryworld.com/"
+      }
+    },
+    {
+      "id": "fact-chem-008",
+      "title": "Relativity helps keep mercury liquid",
+      "category": "chemistry",
+      "topic": "relativistic chemistry",
+      "tags": ["mercury", "relativity", "electrons", "periodic table"],
+      "summary": "Relativistic effects contribute to mercury's unusual electron structure and weak metallic bonding, helping explain its low melting point.",
+      "whySurprising": "A theory of spacetime contributes to why a familiar element is liquid at room temperature.",
+      "explanation": "In heavy atoms, inner electrons move rapidly enough that relativistic effects become chemically significant. These effects alter the size and energy of mercury's valence orbitals and influence metallic bonding.",
+      "deepDive": "Mercury's liquid state is the result of several factors, but relativistic effects are an important part of the modern quantum-chemical explanation.",
+      "source": {
+        "title": "Chemistry World: Relativistic Effects in Mercury",
+        "url": "https://www.chemistryworld.com/"
+      }
+    },
+    {
+      "id": "fact-chem-009",
+      "title": "Noble gases can form compounds",
+      "category": "chemistry",
+      "topic": "inorganic chemistry",
+      "tags": ["noble gases", "xenon", "chemical bonding"],
+      "summary": "Noble gases are chemically unreactive rather than absolutely incapable of forming compounds.",
+      "whySurprising": "The group once described as chemically inert contains elements such as xenon that form stable compounds.",
+      "explanation": "Heavy noble gases have relatively easily polarizable electron clouds and can form compounds under appropriate conditions. Xenon fluorides and oxides are well-established examples.",
+      "deepDive": "The discovery of noble-gas compounds in the 20th century dramatically changed the understanding of the periodic table.",
+      "source": {
+        "title": "Royal Society of Chemistry: Xenon",
+        "url": "https://www.rsc.org/periodic-table/element/54/xenon"
+      }
+    },
+    {
+      "id": "fact-chem-010",
+      "title": "Molecules can have chemically different mirror images",
+      "category": "chemistry",
+      "topic": "chirality",
+      "tags": ["chirality", "stereochemistry", "mirror images", "biochemistry"],
+      "summary": "Two molecules can have identical atoms and bonding but exist as non-superimposable mirror images called enantiomers.",
+      "whySurprising": "A molecule can have the same formula and connectivity as another molecule yet interact differently with biological systems.",
+      "explanation": "Biological molecules such as proteins are themselves three-dimensional and often chiral. Their binding sites can distinguish between molecular mirror images.",
+      "deepDive": "This is why stereochemistry is crucial in pharmaceuticals, biochemistry and molecular recognition.",
+      "source": {
+        "title": "IUPAC Gold Book: Chirality",
+        "url": "https://goldbook.iupac.org/"
+      }
+    },
+
+    {
+      "id": "fact-chem-011",
+      "title": "A molecule's shape can change its biological behaviour",
+      "category": "chemistry",
+      "topic": "stereochemistry",
+      "tags": ["molecules", "isomers", "stereochemistry", "biology"],
+      "summary": "Molecules with the same atoms can behave differently when their atoms are connected or arranged differently in three-dimensional space.",
+      "whySurprising": "Chemical composition alone does not determine everything a molecule does.",
+      "explanation": "Structural isomers differ in connectivity, while stereoisomers have the same connectivity but different spatial arrangements. Enzymes and receptors can distinguish these structures.",
+      "deepDive": "This three-dimensional specificity is one reason molecular shape is central to drug design and biochemistry.",
+      "source": {
+        "title": "Royal Society of Chemistry: Stereochemistry",
+        "url": "https://www.rsc.org/"
+      }
+    },
+    {
+      "id": "fact-chem-012",
+      "title": "An atom is almost entirely empty space",
+      "category": "chemistry",
+      "topic": "atomic structure",
+      "tags": ["atoms", "nucleus", "empty space", "quantum mechanics"],
+      "summary": "Almost all of an atom's mass is concentrated in its tiny nucleus, while the atom's overall size is many orders of magnitude larger.",
+      "whySurprising": "The solid matter around us is built from objects whose internal structure is overwhelmingly empty space at the nuclear scale.",
+      "explanation": "The nucleus contains protons and neutrons and has a radius around 100,000 times smaller than the atom's overall radius. Electrons occupy quantum states around the nucleus rather than tiny planetary orbits.",
+      "deepDive": "Calling the atom 'empty' is an approximation, because quantum fields and electron probability distributions still occupy the atomic region. But the scale difference between nucleus and atom is enormous.",
+      "source": {
+        "title": "CERN: Inside the Atom",
+        "url": "https://home.cern/science/physics/standard-model"
+      }
+    },
+    {
+      "id": "fact-chem-013",
+      "title": "Chemical bonds are not rigid microscopic sticks",
+      "category": "chemistry",
+      "topic": "molecular structure",
+      "tags": ["chemical bonds", "molecules", "quantum chemistry", "vibration"],
+      "summary": "Atoms in molecules are constantly moving, and bond lengths fluctuate rather than remaining perfectly fixed.",
+      "whySurprising": "The line-drawing representation of a molecule hides a constantly moving quantum system.",
+      "explanation": "Chemical bonds correspond to regions of increased electron density and energetic stability. Molecular vibrations cause nuclei to move relative to one another, changing instantaneous bond distances.",
+      "deepDive": "Spectroscopy can detect these vibrations, giving scientists a way to infer molecular structure from the frequencies at which molecules absorb or emit radiation.",
+      "source": {
+        "title": "NIST Chemistry WebBook",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    },
+    {
+      "id": "fact-chem-014",
+      "title": "Glow sticks make light without getting hot",
+      "category": "chemistry",
+      "topic": "chemiluminescence",
+      "tags": ["chemiluminescence", "glow sticks", "light", "chemical reactions"],
+      "summary": "Chemiluminescence produces light directly from chemical reactions rather than primarily from heating a material.",
+      "whySurprising": "A chemical reaction can produce visible photons without requiring the object to become incandescent.",
+      "explanation": "In a glow stick, chemical reactions create excited molecular species. When those molecules return to lower-energy states, they release energy as photons.",
+      "deepDive": "The efficiency and colour of chemiluminescence depend on the molecular reaction pathway and the energy levels of the emitting species.",
+      "source": {
+        "title": "Royal Society of Chemistry: Chemiluminescence",
+        "url": "https://www.rsc.org/"
+      }
+    },
+    {
+      "id": "fact-chem-015",
+      "title": "Fireflies are doing chemistry to make light",
+      "category": "chemistry",
+      "topic": "bioluminescence",
+      "tags": ["fireflies", "bioluminescence", "luciferin", "enzymes"],
+      "summary": "Firefly light is produced by a controlled chemical reaction involving luciferin, oxygen and the enzyme luciferase.",
+      "whySurprising": "An animal can convert chemical energy directly into visible light with remarkable efficiency.",
+      "explanation": "The firefly reaction produces an excited molecular product. When it relaxes to a lower-energy state, a photon is emitted.",
+      "deepDive": "Bioluminescence has evolved independently in many organisms, including marine animals, fungi and bacteria, using a variety of chemical systems.",
+      "source": {
+        "title": "Smithsonian: Bioluminescence",
+        "url": "https://ocean.si.edu/ocean-life/invertebrates/bioluminescence"
+      }
+    },
+    {
+      "id": "fact-chem-016",
+      "title": "Electricity can force chemistry uphill",
+      "category": "chemistry",
+      "topic": "electrolysis",
+      "tags": ["electrolysis", "electricity", "redox", "chemistry"],
+      "summary": "Electrical energy can drive chemical reactions that would not spontaneously proceed in the desired direction.",
+      "whySurprising": "A battery or power supply can effectively push a chemical system away from its natural equilibrium.",
+      "explanation": "Electrolysis applies an external potential to drive oxidation and reduction reactions at electrodes. The electrical work supplies the energy required for the non-spontaneous overall process.",
+      "deepDive": "Electrolysis is used industrially to produce substances such as hydrogen, chlorine and aluminium and is fundamental to electrochemistry.",
+      "source": {
+        "title": "OpenStax Chemistry: Electrochemistry",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      }
+    },
+    {
+      "id": "fact-chem-017",
+      "title": "Rust is an electrochemical process",
+      "category": "chemistry",
+      "topic": "corrosion",
+      "tags": ["rust", "corrosion", "electrochemistry", "iron"],
+      "summary": "Iron rusting involves coupled oxidation and reduction reactions occurring at different regions of the metal surface.",
+      "whySurprising": "Rust is not simply a direct reaction between iron and oxygen; water and electrochemical processes are central.",
+      "explanation": "At anodic regions, iron atoms lose electrons. At cathodic regions, oxygen is reduced, with water helping transport ions and complete the electrochemical circuit.",
+      "deepDive": "Differences in oxygen concentration, surface chemistry and electrical potential can create tiny galvanic cells across the metal.",
+      "source": {
+        "title": "NACE: Corrosion Basics",
+        "url": "https://www.ampp.org/"
+      }
+    },
+    {
+      "id": "fact-chem-018",
+      "title": "Different metals can make each other corrode faster",
+      "category": "chemistry",
+      "topic": "galvanic corrosion",
+      "tags": ["galvanic corrosion", "metals", "electrochemistry"],
+      "summary": "When two different metals are electrically connected in an electrolyte, one can become preferentially oxidized.",
+      "whySurprising": "Simply connecting two ordinary metals can effectively create a tiny electrochemical cell.",
+      "explanation": "The two metals have different electrode potentials. In a conductive environment, electrons can flow through the metals while ions move through the electrolyte, driving corrosion at the anodic metal.",
+      "deepDive": "Engineers exploit or prevent this effect in everything from batteries to bridges and marine structures.",
+      "source": {
+        "title": "AMPP: Galvanic Corrosion",
+        "url": "https://www.ampp.org/"
+      }
+    },
+    {
+      "id": "fact-chem-019",
+      "title": "Carbon can build an enormous molecular universe",
+      "category": "chemistry",
+      "topic": "organic chemistry",
+      "tags": ["carbon", "organic chemistry", "molecules", "bonding"],
+      "summary": "Carbon can form stable chains, rings, branches and complex three-dimensional structures because of its bonding versatility.",
+      "whySurprising": "One element can participate in an enormous fraction of the molecular diversity known to chemistry.",
+      "explanation": "Carbon commonly forms four covalent bonds and can bond strongly to other carbon atoms. This allows enormous numbers of molecular architectures.",
+      "deepDive": "Carbon chemistry underlies biological molecules, polymers, fuels, pharmaceuticals and countless synthetic materials.",
+      "source": {
+        "title": "Royal Society of Chemistry: Carbon",
+        "url": "https://www.rsc.org/periodic-table/element/6/carbon"
+      }
+    },
+    {
+      "id": "fact-chem-020",
+      "title": "Chemistry is quantum mechanics made visible",
+      "category": "chemistry",
+      "topic": "quantum chemistry",
+      "tags": ["quantum mechanics", "chemistry", "electrons", "bonding"],
+      "summary": "Chemical bonding, molecular orbitals, spectra and much of molecular reactivity ultimately arise from quantum mechanics.",
+      "whySurprising": "The everyday behaviour of substances is connected directly to physics at the microscopic quantum scale.",
+      "explanation": "Electrons occupy quantum states rather than classical orbits. Their allowed energies and wavefunctions determine how atoms bond, absorb light and participate in reactions.",
+      "deepDive": "Quantum chemistry provides the microscopic foundation linking particle physics and atomic structure to the macroscopic properties of materials.",
+      "source": {
+        "title": "IUPAC: Quantum Chemistry",
+        "url": "https://iupac.org/"
+      }
+    }
+  ]
+}
