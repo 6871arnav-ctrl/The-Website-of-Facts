@@ -1,0 +1,37 @@
+.fact-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+}
+.fact-card {
+  position: relative; min-height: 270px; padding: 23px; display: flex; flex-direction: column;
+  border: 1px solid var(--line); border-radius: 19px; background: rgba(255,255,255,.025);
+  overflow: hidden; cursor: pointer; transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.fact-card::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 100% 0%, rgba(142,168,255,.12), transparent 48%); pointer-events: none; }
+.fact-card:hover { transform: translateY(-4px); border-color: rgba(142,168,255,.38); background: rgba(255,255,255,.045); }
+.fact-card-top { display: flex; justify-content: space-between; gap: 12px; position: relative; z-index: 1; }
+.fact-category { color: var(--accent-2); font-size: 9px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+.fact-number { color: rgba(255,255,255,.30); font-size: 10px; }
+.fact-card h3 { position: relative; z-index: 1; margin: 32px 0 10px; font-size: 21px; line-height: 1.16; letter-spacing: -.025em; }
+.fact-card p { position: relative; z-index: 1; margin: 0; color: var(--muted); font-size: 13px; }
+.fact-card-bottom { position: relative; z-index: 1; margin-top: auto; padding-top: 22px; display: flex; justify-content: space-between; align-items: center; color: var(--soft); font-size: 10px; }
+.fact-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.fact-tag { padding: 4px 7px; border: 1px solid var(--line); border-radius: 99px; color: var(--muted); }
+.fact-arrow { font-size: 17px; }
+.fact-dialog {
+  width: min(760px, calc(100% - 28px)); max-height: min(88vh, 900px); padding: 0; border: 1px solid var(--line-strong);
+  border-radius: 25px; background: #0b1120; color: var(--text); box-shadow: 0 30px 120px rgba(0,0,0,.65);
+}
+.fact-dialog::backdrop { background: rgba(2,4,9,.78); backdrop-filter: blur(7px); }
+.dialog-close {
+  position: sticky; float: right; top: 16px; right: 16px; z-index: 4; width: 35px; height: 35px;
+  border: 1px solid var(--line); border-radius: 50%; background: rgba(7,10,18,.85); color: var(--text); font-size: 22px;
+}
+.dialog-inner { padding: 46px 46px 50px; }
+.dialog-category { color: var(--accent-2); font-size: 10px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+.dialog-inner h2 { margin: 12px 0 18px; font-size: clamp(30px, 5vw, 48px); line-height: 1.03; letter-spacing: -.045em; }
+.dialog-summary { font-size: 17px; color: var(--soft); }
+.dialog-block { margin-top: 30px; }
+.dialog-block h3 { margin: 0 0 7px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.dialog-block p { margin: 0; color: var(--muted); font-size: 14px; }
+.dialog-source-list { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.dialog-source-list a { color: var(--soft); font-size: 12px; }

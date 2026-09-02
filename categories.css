@@ -1,0 +1,11 @@
+.category-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.category-card {
+  min-height: 190px; padding: 24px; border: 1px solid var(--line); border-radius: 20px;
+  background: rgba(255,255,255,.023); text-decoration: none; position: relative; overflow: hidden;
+  transition: transform .2s ease, border-color .2s ease;
+}
+.category-card:hover { transform: translateY(-4px); border-color: var(--line-strong); }
+.category-index { color: var(--muted); font-size: 10px; letter-spacing: .13em; }
+.category-card h3 { margin: 34px 0 6px; font-size: 23px; letter-spacing: -.03em; }
+.category-card p { margin: 0; color: var(--muted); font-size: 12px; max-width: 270px; }
+.category-count { position: absolute; right: 20px; bottom: 20px; color: var(--soft); font-size: 10px; }
