@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TWoF Fact Editor</title>
+  <style>
+    :root{--bg:#080b12;--panel:#111827;--line:#27324a;--text:#f4f7ff;--muted:#a8b2c7;--accent:#8ea8ff;--good:#75e5d2}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;line-height:1.5}
+    main{width:min(900px,calc(100% - 28px));margin:35px auto 70px}.top{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:25px}
+    h1{margin:0;font-size:40px;letter-spacing:-.04em}.note{color:var(--muted);font-size:13px}.panel{padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--panel);margin-bottom:15px}
+    label{display:block;font-size:12px;font-weight:700;margin:0 0 6px}.field{margin-bottom:17px}.field:last-child{margin-bottom:0}
+    input,textarea,select{width:100%;border:1px solid var(--line);background:#0b1020;color:var(--text);border-radius:10px;padding:11px;outline:none}
+    textarea{min-height:110px;resize:vertical}button{border:1px solid var(--line);background:#18223a;color:var(--text);border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+    button.primary{background:var(--text);color:#090c14}.actions{display:flex;flex-wrap:wrap;gap:8px}.status{margin-top:12px;color:var(--good);font-size:12px}
+    .warning{padding:12px;border:1px solid #594b2c;background:#1e1a10;color:#d9c68f;border-radius:10px;font-size:12px;margin-bottom:15px}
+  </style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div><h1>Fact Editor</h1><div class="note">TWoF local authoring tool — not a public backend.</div></div>
+    <a href="../" style="color:var(--muted)">← TWoF</a>
+  </div>
+  <div class="warning">This tool edits facts in your browser and exports a new <code>facts.json</code>. It does not contain GitHub credentials and should not be given a GitHub personal access token.</div>
+  <form id="factForm">
+    <section class="panel">
+      <div class="field"><label for="title">Fact title *</label><input id="title" required></div>
+      <div class="field"><label for="category">Category *</label>
+        <select id="category" required>
+          <option value="space">Space Science & Astronomy</option><option value="history">History & General Knowledge</option>
+          <option value="physics">Physics</option><option value="biology">Biology</option>
+          <option value="mathematics">Mathematics</option><option value="chemistry">Chemistry</option>
+        </select>
+      </div>
+      <div class="field"><label for="topic">Topic</label><input id="topic" placeholder="e.g. neutron stars"></div>
+      <div class="field"><label for="tags">Tags</label><input id="tags" placeholder="comma, separated, tags"></div>
+    </section>
+    <section class="panel">
+      <div class="field"><label for="summary">Short summary *</label><textarea id="summary" required></textarea></div>
+      <div class="field"><label for="why">Why is it surprising?</label><textarea id="why"></textarea></div>
+      <div class="field"><label for="explanation">Explanation *</label><textarea id="explanation" required></textarea></div>
+      <div class="field"><label for="deepDive">Deep dive</label><textarea id="deepDive"></textarea></div>
+    </section>
+    <section class="panel">
+      <div class="field"><label for="sourceTitle">Primary source title</label><input id="sourceTitle"></div>
+      <div class="field"><label for="sourceUrl">Primary source URL</label><input id="sourceUrl" type="url" placeholder="https://..."></div>
+    </section>
+    <div class="actions">
+      <button class="primary" type="submit">Add fact to collection</button>
+      <button type="button" id="download">Export facts.json</button>
+      <button type="button" id="import">Import facts.json</button>
+      <input id="file" type="file" accept=".json,application/json" hidden>
+    </div>
+    <div class="status" id="status" aria-live="polite"></div>
+  </form>
+</main>
+<script>
+let library={version:1,facts:[]};
+const $=id=>document.getElementById(id);
+function slug(s){return s.toLowerCase().trim().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
+function clear(){["title","topic","tags","summary","why","explanation","deepDive","sourceTitle","sourceUrl"].forEach(id=>$(id).value="")}
+$("factForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const title=$("title").value.trim();
+  const fact={
+    id: `${slug(title).slice(0,55)}-${Date.now().toString(36)}`,
+    title, category:$("category").value, topic:$("topic").value.trim(),
+    tags:$("tags").value.split(",").map(x=>x.trim()).filter(Boolean),
+    summary:$("summary").value.trim(), whySurprising:$("why").value.trim(),
+    explanation:$("explanation").value.trim(), deepDive:$("deepDive").value.trim(),
+    sources:$("sourceUrl").value.trim() ? [{title:$("sourceTitle").value.trim() || $("sourceUrl").value.trim(),url:$("sourceUrl").value.trim()}] : []
+  };
+  library.facts.push(fact); clear();
+  $("status").textContent=`Added "${title}". ${library.facts.length} fact(s) ready to export.`;
+});
+$("download").addEventListener("click",()=>{
+  const blob=new Blob([JSON.stringify(library,null,2)+"\n"],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="facts.json";a.click();URL.revokeObjectURL(a.href);
+  $("status").textContent="facts.json exported.";
+});
+$("import").addEventListener("click",()=>$("file").click());
+$("file").addEventListener("change",async e=>{
+  const file=e.target.files[0]; if(!file)return;
+  try{const parsed=JSON.parse(await file.text()); if(!Array.isArray(parsed.facts))throw new Error("No facts array found."); library=parsed; $("status").textContent=`Imported ${library.facts.length} fact(s).`;}
+  catch(err){$("status").textContent="Import failed: "+err.message}
+});
+</script>
+</body>
+</html>
