@@ -1,2 +1,84 @@
-# The-Website-of-Facts
-This is a simple beginner website listing awe-inspiring or counter-inituitive facts throughout the disciplines of Space Science and Astronomy, History and General Knowledge, Physics, Biology and Chemistry.
+# TWoF — The Website of Facts
+
+**Created by Arnav Basu**
+
+TWoF is a data-driven website for surprising, counterintuitive, obscure and fascinating facts across six fields:
+
+1. Space Science & Astronomy
+2. History & General Knowledge
+3. Physics
+4. Biology
+5. Mathematics
+6. Chemistry
+
+The initial release intentionally contains **zero facts**. The architecture is ready for the content library to be built separately.
+
+## GitHub Pages
+
+This repository is designed to work as a static GitHub Pages site.
+
+No Node.js, build command or server is required for the public website.
+
+The main entry point is:
+
+`index.html`
+
+GitHub Pages can publish the repository directly once Pages is enabled for the chosen branch/folder.
+
+## Repository structure
+
+- `index.html` — public homepage
+- `css/` — presentation and responsive styling
+- `js/` — application modules
+- `data/facts.json` — fact database
+- `data/categories.json` — category definitions
+- `data/metadata.json` — site metadata/editorial principles
+- `assets/` — future images, icons and backgrounds
+- `tools/fact-editor.html` — local fact-authoring utility
+- `docs/` — schema and editorial documentation
+- `.github/workflows/validate.yml` — automatic content validation
+
+## Adding facts
+
+The intended workflow is:
+
+`Fact Editor → facts.json → GitHub → automatic validation → GitHub Pages`
+
+The editor is **not a backend**. It runs locally in the browser and exports JSON. This is intentional: no GitHub credentials are exposed in public client-side code.
+
+See `docs/CONTRIBUTING.md`.
+
+## Design philosophy
+
+TWoF should feel like a curated knowledge experience rather than a conventional trivia website.
+
+The content model is designed around:
+
+**Fact → surprise → explanation → deeper connection → rabbit hole**
+
+The long-term architecture can support related facts, images, richer metadata, verification states and additional discovery systems without redesigning the core content model.
+
+## Local preview
+
+Because browsers can restrict `fetch()` when an HTML file is opened directly with `file://`, use a simple local static server if you want to preview the complete site locally.
+
+For example, with Python installed:
+
+`python -m http.server 8000`
+
+Then open the local server address in your browser.
+
+This is only for local preview. GitHub Pages serves the site normally over HTTPS.
+
+## License
+
+No license has been selected in this starter repository. Choose and add a license before publishing if you want others to have explicit reuse permissions.
+
+## Repository & GitHub Pages
+
+GitHub repository: https://github.com/6871arnav-ctrl/The-Website-of-Facts
+
+Expected GitHub Pages site: https://6871arnav-ctrl.github.io/The-Website-of-Facts/
+
+### Fact Upload Center
+Use `tools/fact-upload.html` to add facts without editing site code. It loads and exports `data/facts.json` locally and never asks for GitHub credentials.

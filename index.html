@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Website of Facts — a curated exploration of surprising, counterintuitive and fascinating facts. Created by Arnav Basu.">
+  <meta name="theme-color" content="#070a12">
+  <meta property="og:title" content="The Website of Facts">
+  <meta property="og:description" content="Explore facts that make you stop and think: wait, really?">
+  <meta property="og:type" content="website">
+  <title>The Website of Facts — TWoF</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/core.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/facts.css">
+  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="The Website of Facts home">
+      <span class="brand-mark">T</span>
+      <span>
+        <strong>TWoF</strong>
+        <small>The Website of Facts</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#explore">Explore</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <button id="randomNav" class="nav-button" type="button">Surprise Me</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-orbit hero-orbit-a" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-b" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">KNOWLEDGE, WITHOUT THE BORING PART</p>
+        <h1 id="heroTitle">Facts that make you say<br><span>“wait… really?”</span></h1>
+        <p class="hero-lead">A growing collection of strange, beautiful, counterintuitive and genuinely fascinating facts — carefully sourced and built for rabbit holes.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#explore">Start Exploring</a>
+          <button class="button button-ghost" id="randomHero" type="button">Surprise Me <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="hero-meta">
+          <span><b id="factCount">0</b> facts</span>
+          <span class="dot"></span>
+          <span><b>6</b> fields of discovery</span>
+          <span class="dot"></span>
+          <span>Sources-first</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="core-glow"></div>
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+        <div class="hero-core">?</div>
+        <span class="particle p1"></span><span class="particle p2"></span><span class="particle p3"></span>
+        <span class="particle p4"></span><span class="particle p5"></span>
+      </div>
+    </section>
+
+    <section class="explore-section section-shell" id="explore" aria-labelledby="exploreTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE LIBRARY</p>
+          <h2 id="exploreTitle">Explore the unknown</h2>
+        </div>
+        <p class="section-note">Search the collection or let TWoF choose your next rabbit hole.</p>
+      </div>
+
+      <div class="search-row">
+        <label class="search-box" for="searchInput">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search facts, topics, tags…" autocomplete="off">
+          <kbd>Ctrl</kbd><kbd>K</kbd>
+        </label>
+        <button id="randomExplore" class="button button-dark" type="button">Random Fact</button>
+      </div>
+
+      <div id="searchStatus" class="search-status" aria-live="polite"></div>
+      <div id="factGrid" class="fact-grid"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-icon">∅</div>
+        <h3>No facts here yet.</h3>
+        <p>The library is intentionally starting empty. Once facts are added to <code>data/facts.json</code>, they will appear here automatically.</p>
+      </div>
+    </section>
+
+    <section class="categories-section section-shell" id="categories" aria-labelledby="categoriesTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SIX WORLDS OF DISCOVERY</p>
+          <h2 id="categoriesTitle">Choose a rabbit hole</h2>
+        </div>
+      </div>
+      <div id="categoryGrid" class="category-grid"></div>
+    </section>
+
+    <section class="about-section section-shell" id="about" aria-labelledby="aboutTitle">
+      <div class="about-panel">
+        <div class="about-symbol" aria-hidden="true">T</div>
+        <div>
+          <p class="eyebrow">ABOUT TWoF</p>
+          <h2 id="aboutTitle">Curiosity deserves better than ordinary trivia.</h2>
+          <p>TWoF is designed around a simple idea: the best fact isn't merely something you didn't know. It's something that changes how you see a subject.</p>
+          <p>Every fact is intended to lead somewhere — into an explanation, a deeper question, another subject, or an entirely new rabbit hole.</p>
+          <div class="creator-line">Created by <strong>Arnav Basu</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <div>
+      <strong>TWoF</strong>
+      <span> The Website of Facts</span>
+    </div>
+    <p>Built for curiosity. Designed for rabbit holes.</p>
+  </footer>
+
+  <dialog id="factDialog" class="fact-dialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Close fact">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

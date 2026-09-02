@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local tooling
+*.log
+.env
+.env.*
+
+# Generated local files
+*.tmp
+*.bak
