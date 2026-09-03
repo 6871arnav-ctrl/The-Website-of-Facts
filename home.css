@@ -49,3 +49,55 @@
 .about-panel p { max-width: 720px; color: var(--muted); font-size: 14px; }
 .creator-line { margin-top: 22px; font-size: 13px; color: var(--soft); }
 .creator-line strong { color: var(--text); }
+.hero-visual {
+  height: 520px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.logo-glow {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(90, 190, 255, .20),
+    rgba(170, 80, 255, .10),
+    transparent 70%
+  );
+  filter: blur(28px);
+  animation: logoPulse 5s ease-in-out infinite;
+}
+
+.hero-logo {
+  position: relative;
+  z-index: 2;
+  width: min(430px, 75%);
+  height: auto;
+  display: block;
+  filter:
+    drop-shadow(0 0 22px rgba(80, 190, 255, .25))
+    drop-shadow(0 0 45px rgba(170, 80, 255, .12));
+  transition: transform .35s ease, filter .35s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.025);
+  filter:
+    drop-shadow(0 0 28px rgba(80, 200, 255, .35))
+    drop-shadow(0 0 55px rgba(190, 80, 255, .18));
+}
+
+@keyframes logoPulse {
+  0%, 100% {
+    transform: scale(.96);
+    opacity: .75;
+  }
+
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
