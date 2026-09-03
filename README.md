@@ -31,7 +31,7 @@ GitHub Pages can publish the repository directly once Pages is enabled for the c
 - `categories.json` — category definitions
 - `metadata.json` — site metadata/editorial principles
 - `fact-editor.html` — local fact-authoring utility
-- `.github/workflows/validate.yml` — automatic content validation
+- `validate.yml` — automatic content validation
 
   It uses a flat structure without any workflow folders to easy the addition of new files.
 
