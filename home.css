@@ -44,7 +44,22 @@
 .empty-state p { margin: 0 auto; max-width: 560px; color: var(--muted); font-size: 13px; }
 .about-section { padding-top: 100px; }
 .about-panel { display: grid; grid-template-columns: 150px 1fr; gap: 45px; padding: 55px; border: 1px solid var(--line); border-radius: 30px; background: linear-gradient(130deg, rgba(142,168,255,.07), rgba(117,229,210,.025)); }
-.about-symbol { display: grid; place-items: center; width: 105px; height: 105px; border: 1px solid var(--line-strong); border-radius: 28px; font-size: 52px; font-weight: 900; color: var(--accent); background: rgba(255,255,255,.025); }
+.about-symbol {
+  display: grid;
+  place-items: center;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.018);
+  box-shadow: 0 0 35px rgba(100,180,255,.10);
+}
+
+.about-symbol img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
 .about-panel h2 { margin: 0 0 18px; font-size: clamp(27px, 4vw, 44px); line-height: 1.05; letter-spacing: -.04em; }
 .about-panel p { max-width: 720px; color: var(--muted); font-size: 14px; }
 .creator-line { margin-top: 22px; font-size: 13px; color: var(--soft); }
