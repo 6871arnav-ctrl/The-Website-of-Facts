@@ -107,4 +107,29 @@ code { color: var(--accent-2); }
   background: #10172a; box-shadow: var(--shadow); color: var(--text); font-size: 12px;
   transition: .22s ease;
 }
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-brand strong {
+  display: block;
+  font-size: 14px;
+}
+
+.footer-brand span {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
