@@ -106,8 +106,8 @@ function surprise() {
 async function init() {
   try {
     const [library, categories] = await Promise.all([
-      loadJSON("data/facts.json"),
-      loadJSON("data/categories.json")
+      loadJSON("facts.json"),
+      loadJSON("categories.json")
     ]);
     validateLibrary(library);
     state.facts = library.facts;
