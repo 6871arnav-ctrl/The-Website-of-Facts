@@ -80,5 +80,7 @@ GitHub repository: https://github.com/6871arnav-ctrl/The-Website-of-Facts
 
 Expected GitHub Pages site: https://6871arnav-ctrl.github.io/The-Website-of-Facts/
 
+**Google Form** for uploading new facts: https://forms.gle/nyXw6moVX3j8dNUUA
+
 ### Fact Upload Center
 Use `tools/fact-upload.html` to add facts without editing site code. It loads and exports `data/facts.json` locally and never asks for GitHub credentials.
