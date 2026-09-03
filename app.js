@@ -129,7 +129,7 @@ async function init() {
     els.factGrid.innerHTML = "";
     els.emptyState.hidden = false;
     els.emptyState.querySelector("h3").textContent = "TWoF couldn't load its library.";
-    els.emptyState.querySelector("p").textContent = "Check that data/facts.json and data/categories.json are present and valid. See the browser console for technical details.";
+    els.emptyState.querySelector("p").textContent = "Check that facts.json and categories.json are present and valid.";
   }
 }
 init();
