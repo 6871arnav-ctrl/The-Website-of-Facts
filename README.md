@@ -1,4 +1,4 @@
-# TWoF — The Website of Facts
+# TWoF - The Website of Facts
 
 **Created by Arnav Basu**
 
