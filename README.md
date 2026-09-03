@@ -71,7 +71,7 @@ This is only for local preview. GitHub Pages serves the site normally over HTTPS
 
 ## License
 
-No license has been selected in this starter repository. Choose and add a license before publishing if you want others to have explicit reuse permissions.
+No license has been selected in this starter repository.
 
 ## Repository & GitHub Pages
 
@@ -79,7 +79,7 @@ GitHub repository: https://github.com/6871arnav-ctrl/The-Website-of-Facts
 
 Expected GitHub Pages site: https://6871arnav-ctrl.github.io/The-Website-of-Facts/
 
+## Google Form for Submissions of New Facts
+
 **Google Form** for uploading new facts: https://forms.gle/nyXw6moVX3j8dNUUA
 
-### Fact Upload Center
-Use `tools/fact-upload.html` to add facts without editing site code. It loads and exports `data/facts.json` locally and never asks for GitHub credentials.
