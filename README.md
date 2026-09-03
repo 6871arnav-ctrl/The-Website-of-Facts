@@ -27,15 +27,13 @@ GitHub Pages can publish the repository directly once Pages is enabled for the c
 ## Repository structure
 
 - `index.html` — public homepage
-- `css/` — presentation and responsive styling
-- `js/` — application modules
-- `data/facts.json` — fact database
-- `data/categories.json` — category definitions
-- `data/metadata.json` — site metadata/editorial principles
-- `assets/` — future images, icons and backgrounds
-- `tools/fact-editor.html` — local fact-authoring utility
-- `docs/` — schema and editorial documentation
+- `facts.json` — fact database
+- `categories.json` — category definitions
+- `metadata.json` — site metadata/editorial principles
+- `fact-editor.html` — local fact-authoring utility
 - `.github/workflows/validate.yml` — automatic content validation
+
+  It uses a flat structure without any workflow folders to easy the addition of new files.
 
 ## Adding facts
 
@@ -45,7 +43,7 @@ The intended workflow is:
 
 The editor is **not a backend**. It runs locally in the browser and exports JSON. This is intentional: no GitHub credentials are exposed in public client-side code.
 
-See `docs/CONTRIBUTING.md`.
+See `CONTRIBUTING.md`.
 
 ## Design philosophy
 
@@ -70,8 +68,7 @@ Then open the local server address in your browser.
 This is only for local preview. GitHub Pages serves the site normally over HTTPS.
 
 ## License
-
-No license has been selected in this starter repository.
+This repository uses an MIT License applicable to the code.
 
 ## Repository & GitHub Pages
 
