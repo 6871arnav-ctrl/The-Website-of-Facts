@@ -11,7 +11,6 @@ TWoF is a data-driven website for surprising, counterintuitive, obscure and fasc
 5. Mathematics
 6. Chemistry
 
-The initial release intentionally contains **zero facts**. The architecture is ready for the content library to be built separately.
 
 ## GitHub Pages
 
