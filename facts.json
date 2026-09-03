@@ -1415,7 +1415,412 @@
       "source": {
         "title": "IUPAC: Quantum Chemistry",
         "url": "https://iupac.org/"
+      },
+          {
+      "id": "fact-space-021",
+      "title": "Neutron stars can have starquakes",
+      "category": "space",
+      "topic": "neutron stars",
+      "tags": ["neutron stars", "starquakes", "pulsars", "magnetars", "stellar physics"],
+      "summary": "The crust of a neutron star can undergo sudden rearrangements that produce events known as starquakes.",
+      "whySurprising": "An object only about 20 kilometres across can experience something analogous to an earthquake on an incredibly dense stellar scale.",
+      "explanation": "A neutron star has an extremely dense crust subjected to enormous gravitational and magnetic stresses. When the crust can no longer sustain those stresses, it can suddenly rearrange, changing the star's rotation or magnetic configuration.",
+      "deepDive": "Starquakes are one possible explanation for sudden changes in the rotation rate of pulsars, called glitches. These events allow astronomers to probe the otherwise inaccessible interior physics of neutron stars.",
+      "source": {
+        "title": "NASA: Neutron Stars",
+        "url": "https://science.nasa.gov/universe/neutron-stars/"
       }
+    },
+    {
+      "id": "fact-space-022",
+      "title": "White dwarfs can crystallize",
+      "category": "space",
+      "topic": "white dwarfs",
+      "tags": ["white dwarfs", "crystallization", "stellar remnants", "stars", "stellar evolution"],
+      "summary": "As some white dwarfs cool, the dense material in their interiors can begin forming a crystalline structure.",
+      "whySurprising": "A stellar remnant can effectively turn part of its interior into a giant cosmic crystal.",
+      "explanation": "White dwarfs contain extremely dense matter dominated by carbon and oxygen nuclei immersed in a sea of electrons. As a white dwarf cools, the ions can become sufficiently ordered for crystallization to begin.",
+      "deepDive": "Crystallization releases latent heat and slows the cooling of the white dwarf. Astronomers can use this effect to improve estimates of the ages of populations of old stars.",
+      "source": {
+        "title": "ESA: White Dwarf Stars",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia"
+      }
+    },
+    {
+      "id": "fact-space-023",
+      "title": "Black holes can launch particles at nearly light speed",
+      "category": "space",
+      "topic": "black hole jets",
+      "tags": ["black holes", "relativistic jets", "particles", "accretion", "magnetic fields"],
+      "summary": "Some black-hole systems produce powerful jets of charged particles moving at speeds extremely close to that of light.",
+      "whySurprising": "A black hole can help power enormous particle beams even though nothing can escape directly from inside its event horizon.",
+      "explanation": "The jets are produced outside the event horizon, where matter in the accretion disk and intense magnetic fields interact with the rapidly rotating black hole system. These processes can channel energy and particles into narrow relativistic jets.",
+      "deepDive": "Some jets extend for thousands or even millions of light-years. Their existence demonstrates that the region around a black hole can be an extraordinarily efficient environment for converting gravitational and rotational energy into energetic outflows.",
+      "source": {
+        "title": "NASA: Black Holes",
+        "url": "https://science.nasa.gov/universe/black-holes/"
+      }
+    },
+    {
+      "id": "fact-physics-022",
+      "title": "A neutral object can be attracted to a charged object",
+      "category": "physics",
+      "topic": "electrostatics",
+      "tags": ["electricity", "electrostatics", "polarization", "charge", "electric fields"],
+      "summary": "A charged object can attract an electrically neutral object by causing its charges to redistribute slightly.",
+      "whySurprising": "An object does not need a net electric charge to be electrically attracted to something.",
+      "explanation": "An external electric field can polarize a neutral object, shifting positive and negative charge distributions in opposite directions. The side closer to the charged object can then experience a stronger attractive force than the repulsive force on the farther side.",
+      "deepDive": "This principle helps explain why charged objects can attract small neutral pieces of material and is important in electrostatics, capacitors, and many electrical phenomena.",
+      "source": {
+        "title": "OpenStax: University Physics - Electric Fields",
+        "url": "https://openstax.org/details/books/university-physics-volume-2"
+      }
+    },
+    {
+      "id": "fact-physics-023",
+      "title": "A spinning object can resist changes to its orientation",
+      "category": "physics",
+      "topic": "angular momentum",
+      "tags": ["angular momentum", "gyroscopes", "rotation", "mechanics", "inertia"],
+      "summary": "A rapidly spinning object tends to maintain the direction of its rotational axis because of conservation of angular momentum.",
+      "whySurprising": "A simple spinning wheel can make a system dramatically harder to tip or redirect.",
+      "explanation": "Angular momentum is a conserved quantity in the absence of an external torque. Changing the orientation of a spinning object's axis therefore requires a torque, producing the characteristic stability and precession associated with gyroscopes.",
+      "deepDive": "The same physics appears in gyroscopes, spacecraft attitude control, spinning planets, and rotating mechanical systems. The effect is not because rotation magically creates an upward force; it comes from angular momentum and torque.",
+      "source": {
+        "title": "OpenStax: University Physics - Angular Momentum",
+        "url": "https://openstax.org/details/books/university-physics-volume-1"
+      }
+    },
+    {
+      "id": "fact-physics-024",
+      "title": "Reflective surfaces feel more radiation pressure than absorbing ones",
+      "category": "physics",
+      "topic": "radiation pressure",
+      "tags": ["light", "photons", "radiation pressure", "momentum", "solar sails"],
+      "summary": "Light transfers momentum to objects, and a perfectly reflecting surface can receive roughly twice the momentum transfer of a perfectly absorbing surface under the same ideal conditions.",
+      "whySurprising": "A mirror can experience a larger push from light simply because the photons bounce back instead of being absorbed.",
+      "explanation": "Photons carry momentum. When light is absorbed, its momentum is transferred once to the surface. When it is reflected backward, the change in momentum can be approximately twice as large, producing greater radiation pressure.",
+      "deepDive": "This effect is exploited conceptually and experimentally in solar-sail technology, where sunlight provides continuous thrust without propellant being expelled from the spacecraft.",
+      "source": {
+        "title": "NASA: Solar Sailing",
+        "url": "https://www.nasa.gov/mission_pages/sunearth/earthday/solar-sail.html"
+      }
+    },
+    {
+      "id": "fact-physics-025",
+      "title": "Superconductors can expel magnetic fields",
+      "category": "physics",
+      "topic": "superconductivity",
+      "tags": ["superconductivity", "Meissner effect", "magnetism", "magnetic fields"],
+      "summary": "When a material enters the superconducting state under suitable conditions, it can expel magnetic flux from its interior.",
+      "whySurprising": "Superconductivity is not merely the disappearance of electrical resistance; it fundamentally changes how the material interacts with magnetic fields.",
+      "explanation": "The Meissner effect causes magnetic flux to be expelled from the bulk of a superconductor as it transitions into its superconducting state. This is a defining property of superconductivity.",
+      "deepDive": "The Meissner effect enables striking demonstrations involving magnetic levitation and is essential to understanding the electromagnetic behaviour of superconductors.",
+      "source": {
+        "title": "NIST: Superconductivity",
+        "url": "https://www.nist.gov/topics/physics/superconductivity"
+      }
+    },
+    {
+      "id": "fact-physics-026",
+      "title": "A quantum wavefunction can spread through space",
+      "category": "physics",
+      "topic": "quantum mechanics",
+      "tags": ["quantum mechanics", "wavefunction", "probability", "particles", "quantum states"],
+      "summary": "The quantum state of a particle can evolve so that its wavefunction becomes spread over a larger region of space.",
+      "whySurprising": "Quantum mechanics does not require a particle's position to remain concentrated at one classical trajectory between measurements.",
+      "explanation": "A quantum state is represented mathematically by a wavefunction whose squared magnitude gives position probabilities. Under ordinary quantum evolution, a localized wave packet can spread with time.",
+      "deepDive": "Wave-packet spreading is a direct consequence of quantum dynamics and the relationship between position and momentum. It illustrates why quantum particles cannot always be described as tiny classical objects following definite paths.",
+      "source": {
+        "title": "OpenStax: University Physics - Quantum Mechanics",
+        "url": "https://openstax.org/details/books/university-physics-volume-3"
+      }
+    },
+    {
+      "id": "fact-physics-027",
+      "title": "Quantum systems can have discrete energies in continuous space",
+      "category": "physics",
+      "topic": "quantum energy levels",
+      "tags": ["quantum mechanics", "energy levels", "atoms", "wavefunctions", "quantization"],
+      "summary": "A quantum particle can move in a continuous spatial region while only certain discrete energy values are allowed.",
+      "whySurprising": "Space itself can be continuous while the allowed energies of a quantum system are sharply quantized.",
+      "explanation": "When a quantum system is subject to appropriate boundary conditions, only certain wavefunctions satisfy the physical requirements. Each allowed wavefunction corresponds to a particular energy eigenvalue.",
+      "deepDive": "Quantized energy levels explain atomic spectra and many other microscopic phenomena. The discreteness comes from the quantum state and its boundary conditions, not from space being made of discrete pieces.",
+      "source": {
+        "title": "NIST: Atomic Spectroscopy",
+        "url": "https://www.nist.gov/pml/atomic-spectra-database"
+      }
+    },
+    {
+      "id": "fact-history-013",
+      "title": "Ancient Egyptians used seeds in a pregnancy test",
+      "category": "history",
+      "topic": "ancient medicine",
+      "tags": ["ancient Egypt", "medicine", "pregnancy", "papyrus", "history of science"],
+      "summary": "An ancient Egyptian medical text describes testing pregnancy by observing whether seeds watered with a woman's urine germinated.",
+      "whySurprising": "Thousands of years ago, people were already experimenting with biological indicators to answer a medical question.",
+      "explanation": "The method, recorded in the ancient Egyptian medical tradition associated with the Berlin Papyrus, involved using urine to water wheat and barley seeds. The growth response was interpreted as an indication of pregnancy.",
+      "deepDive": "Modern research has found that urine from pregnant women can influence plant growth, although the ancient test was not as accurate or specific as modern pregnancy tests. The practice is nevertheless a remarkable example of early empirical medicine.",
+      "source": {
+        "title": "National Library of Medicine: Ancient Egyptian Medicine",
+        "url": "https://www.nlm.nih.gov/hmd/arabic/arabic20.html"
+      }
+    },
+    {
+      "id": "fact-history-014",
+      "title": "One of the world's oldest surviving peace treaties is over 3,000 years old",
+      "category": "history",
+      "topic": "ancient diplomacy",
+      "tags": ["ancient Egypt", "Hittites", "peace treaty", "diplomacy", "history"],
+      "summary": "The Egyptian-Hittite peace treaty concluded after the Battle of Kadesh is one of the earliest known surviving international peace agreements.",
+      "whySurprising": "Formal diplomacy between major states was already being conducted on an international scale more than three millennia ago.",
+      "explanation": "Egyptian pharaoh Ramesses II and the Hittite king Hattusili III concluded a treaty after years of conflict. Versions of the agreement survive in Egyptian inscriptions, while a Hittite version was preserved on cuneiform tablets.",
+      "deepDive": "The treaty addressed peace between the two powers, mutual assistance, and the treatment of political enemies. A copy of the treaty is displayed at the United Nations as an early example of international diplomacy.",
+      "source": {
+        "title": "United Nations: The Egyptian-Hittite Peace Treaty",
+        "url": "https://www.un.org/en/about-us"
+      }
+    },
+    {
+      "id": "fact-biology-012",
+      "title": "Some animals can regenerate complex body structures",
+      "category": "biology",
+      "topic": "regeneration",
+      "tags": ["regeneration", "animals", "stem cells", "development", "biology"],
+      "summary": "Certain animals can regenerate structures far more complex than ordinary wounds, including limbs or major portions of their bodies.",
+      "whySurprising": "For some animals, losing a major body structure does not necessarily mean losing it permanently.",
+      "explanation": "Regenerative species can activate specialized cells and developmental signalling pathways that reconstruct missing tissues. The mechanisms vary greatly between species and can involve stem-like cells, cell reprogramming, and coordinated growth signals.",
+      "deepDive": "Regeneration is not simply uncontrolled regrowth. The animal must coordinate cell proliferation, differentiation, pattern formation, and tissue organization so that the replacement structure develops in the correct location and proportions.",
+      "source": {
+        "title": "National Institutes of Health: Regeneration",
+        "url": "https://www.nih.gov/"
+      }
+    },
+    {
+      "id": "fact-biology-013",
+      "title": "Some animals can reverse their life cycle",
+      "category": "biology",
+      "topic": "life-cycle reversal",
+      "tags": ["biology", "life cycle", "regeneration", "jellyfish", "development"],
+      "summary": "The jellyfish Turritopsis dohrnii can, under certain conditions, revert from its adult form toward an earlier life stage.",
+      "whySurprising": "Instead of simply moving forward through its life cycle, this animal can effectively reset its developmental state.",
+      "explanation": "After severe stress or injury, Turritopsis dohrnii can transform adult tissues and return to a polyp-like stage. This process involves cellular reorganization and changes in cell identity.",
+      "deepDive": "The process is not the same as making an individual biologically immortal in every possible sense. The animal can still die from disease, predation, or environmental causes, but its unusual life-cycle reversal is a remarkable example of developmental plasticity.",
+      "source": {
+        "title": "Smithsonian Ocean: Turritopsis and Life-Cycle Reversal",
+        "url": "https://ocean.si.edu/"
+      }
+    },
+    {
+      "id": "fact-biology-014",
+      "title": "A single human cell contains an astonishing amount of DNA",
+      "category": "biology",
+      "topic": "DNA and genome",
+      "tags": ["DNA", "genome", "cells", "chromosomes", "molecular biology"],
+      "summary": "If the DNA from the chromosomes of a typical human cell were stretched out, its combined length would be around two metres.",
+      "whySurprising": "A microscopic cell contains a molecule that would be roughly as long as a person when fully extended.",
+      "explanation": "Human DNA is divided among chromosomes and tightly packaged around proteins called histones. This organization allows an enormous amount of genetic material to fit inside the tiny nucleus of a cell.",
+      "deepDive": "The DNA must not only fit inside the nucleus but also remain accessible enough for genes to be copied and regulated. Its packaging therefore operates as both physical organization and part of gene regulation.",
+      "source": {
+        "title": "National Human Genome Research Institute: Genome",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics"
+      }
+    },
+    {
+      "id": "fact-biology-015",
+      "title": "Some animals can see wavelengths humans cannot",
+      "category": "biology",
+      "topic": "animal vision",
+      "tags": ["vision", "ultraviolet", "infrared", "animals", "sensory systems"],
+      "summary": "Different animals possess visual systems capable of detecting parts of the electromagnetic spectrum that human eyes cannot see.",
+      "whySurprising": "The visible world is not the same for every animal.",
+      "explanation": "Humans have three main types of cone photoreceptors sensitive to portions of the visible spectrum. Other animals can possess different photoreceptors and optical systems, allowing some to detect ultraviolet light or other wavelengths outside ordinary human vision.",
+      "deepDive": "Ultraviolet vision is found in several groups of animals, including many insects and birds. Their sensory world can therefore contain visual patterns that are completely invisible to humans.",
+      "source": {
+        "title": "Smithsonian National Zoo: Animal Vision",
+        "url": "https://nationalzoo.si.edu/"
+      }
+    },
+    {
+      "id": "fact-math-011",
+      "title": "There are infinitely many prime numbers",
+      "category": "mathematics",
+      "topic": "number theory",
+      "tags": ["prime numbers", "number theory", "infinity", "proof", "mathematics"],
+      "summary": "No matter how many prime numbers have been found, there must always be another prime number beyond them.",
+      "whySurprising": "The sequence of primes never ends, even though the numbers themselves grow without bound.",
+      "explanation": "Euclid's classic proof assumes that only finitely many primes exist and multiplies them together before adding one. The resulting number cannot be divisible by any prime in the assumed list, forcing the existence of another prime factor.",
+      "deepDive": "The proof does not tell us where the next prime is, and the gaps between primes can become arbitrarily large. It establishes only the remarkable fact that the supply of primes is infinite.",
+      "source": {
+        "title": "Wolfram MathWorld: Prime Number",
+        "url": "https://mathworld.wolfram.com/PrimeNumber.html"
+      }
+    },
+    {
+      "id": "fact-math-012",
+      "title": "A finite shape can have infinite surface area",
+      "category": "mathematics",
+      "topic": "mathematical analysis",
+      "tags": ["infinity", "geometry", "calculus", "Gabriel's horn", "mathematical analysis"],
+      "summary": "Gabriel's Horn is a mathematical solid that has finite volume but an infinite surface area.",
+      "whySurprising": "A shape can hold only a finite amount of space while having an endlessly increasing surface area.",
+      "explanation": "Gabriel's Horn is formed by rotating the curve y = 1/x about the x-axis over an appropriate infinite interval. Integrating the cross-sectional area gives a finite volume, while integrating the surface area gives a divergent result.",
+      "deepDive": "The example shows that intuitive relationships between volume and surface area can fail for objects involving infinitely extended mathematical structures. It also exposes subtle distinctions between different kinds of infinite quantities.",
+      "source": {
+        "title": "Wolfram MathWorld: Gabriel's Horn",
+        "url": "https://mathworld.wolfram.com/GabrielsHorn.html"
+      }
+    },
+    {
+      "id": "fact-math-013",
+      "title": "A sphere encloses the most volume for a given surface area",
+      "category": "mathematics",
+      "topic": "isoperimetric inequality",
+      "tags": ["geometry", "sphere", "optimization", "isoperimetric inequality", "calculus"],
+      "summary": "Among all three-dimensional shapes with the same surface area, the sphere encloses the greatest possible volume.",
+      "whySurprising": "The sphere is not merely convenient or symmetrical; it is mathematically optimal at enclosing volume relative to its surface.",
+      "explanation": "The three-dimensional isoperimetric inequality states that for a fixed surface area, no shape encloses more volume than a sphere. Equivalently, among shapes enclosing the same volume, the sphere has the smallest surface area.",
+      "deepDive": "This principle appears in many physical systems because surface area often carries an energetic or material cost. It helps explain why droplets and bubbles tend toward spherical shapes when surface tension dominates.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Isoperimetric Problem",
+        "url": "https://www.britannica.com/science/isoperimetric-problem"
+      }
+    },
+    {
+      "id": "fact-math-014",
+      "title": "A knot can be impossible to untie without cutting it",
+      "category": "mathematics",
+      "topic": "knot theory",
+      "tags": ["knot theory", "topology", "knots", "topology", "mathematics"],
+      "summary": "Mathematical knots can be genuinely different from an unknotted loop even though both are made from a continuous closed curve.",
+      "whySurprising": "A knot can look like an ordinary piece of string, yet mathematics can prove that no amount of continuous rearranging will untie it.",
+      "explanation": "In knot theory, the allowed operations deform the curve continuously without cutting it or letting it pass through itself. Certain knots have mathematical invariants that distinguish them from the unknot.",
+      "deepDive": "Knot theory connects topology with chemistry, biology, physics, and even the study of DNA, where long molecular chains can become knotted or linked.",
+      "source": {
+        "title": "Wolfram MathWorld: Knot Theory",
+        "url": "https://mathworld.wolfram.com/KnotTheory.html"
+      }
+    },
+    {
+      "id": "fact-math-015",
+      "title": "Triangles on curved surfaces can break the 180-degree rule",
+      "category": "mathematics",
+      "topic": "non-Euclidean geometry",
+      "tags": ["geometry", "curved space", "spherical geometry", "triangles", "non-Euclidean geometry"],
+      "summary": "On a curved surface such as a sphere, the angles of a triangle can add up to more than 180 degrees.",
+      "whySurprising": "One of the most familiar rules of school geometry depends on the geometry of a flat plane.",
+      "explanation": "On a sphere, the shortest paths between points are great-circle arcs rather than ordinary straight lines. A triangle formed from such paths can have an angle sum greater than 180 degrees.",
+      "deepDive": "The amount by which the angle sum exceeds 180 degrees is related to the area of the spherical triangle. Geometry therefore becomes sensitive to the curvature of the space in which it is performed.",
+      "source": {
+        "title": "Wolfram MathWorld: Spherical Geometry",
+        "url": "https://mathworld.wolfram.com/SphericalGeometry.html"
+      }
+    },
+    {
+      "id": "fact-math-016",
+      "title": "A finite description can contain infinite structure",
+      "category": "mathematics",
+      "topic": "mathematical infinity",
+      "tags": ["infinity", "algorithms", "mathematical structure", "sequences", "computation"],
+      "summary": "A short mathematical rule can define an object containing infinitely many elements.",
+      "whySurprising": "A finite amount of information can completely specify something that never ends.",
+      "explanation": "A rule such as 'the sequence of positive integers' is finite to write down but describes an infinite collection. Similarly, a compact formula can define infinitely many terms of a sequence or infinitely many points in a mathematical object.",
+      "deepDive": "This distinction between the size of a description and the size of the structure it defines is fundamental throughout mathematics and theoretical computer science.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Infinity",
+        "url": "https://www.britannica.com/science/infinity-mathematics"
+      }
+    },
+    {
+      "id": "fact-chem-015",
+      "title": "Shape-memory alloys can remember a previous shape",
+      "category": "chemistry",
+      "topic": "materials chemistry",
+      "tags": ["shape-memory alloys", "materials chemistry", "metals", "phase transitions", "nickel titanium"],
+      "summary": "Certain alloys can be deformed at one temperature and later return toward a previously programmed shape when heated.",
+      "whySurprising": "A metal can appear to 'remember' its original shape without containing any conventional memory mechanism.",
+      "explanation": "Shape-memory behaviour arises from reversible changes between different crystal structures. In alloys such as nickel-titanium, temperature changes can drive transformations between phases with different arrangements of atoms.",
+      "deepDive": "The effect is a materials-science consequence of crystallographic phase transitions rather than ordinary elastic recovery. Shape-memory alloys are used in applications ranging from actuators to medical devices.",
+      "source": {
+        "title": "NIST: Shape Memory Alloys",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-chem-016",
+      "title": "Some chemical reactions can spontaneously form complex patterns",
+      "category": "chemistry",
+      "topic": "chemical pattern formation",
+      "tags": ["chemical reactions", "reaction-diffusion", "patterns", "self-organization", "Belousov-Zhabotinsky"],
+      "summary": "Certain chemical systems can spontaneously develop moving waves, rings, spirals, and other organized patterns without an external designer.",
+      "whySurprising": "Simple chemical interactions can produce behaviour that looks almost biological or computational.",
+      "explanation": "In reaction-diffusion systems, chemical species react with one another while also spreading through their surroundings. The interaction between reaction rates and diffusion can create stable or repeating spatial and temporal patterns.",
+      "deepDive": "The Belousov-Zhabotinsky reaction is a famous example in which concentrations of chemical species oscillate over time and can generate striking wave patterns. Such systems demonstrate how complex organization can emerge from relatively simple chemical rules.",
+      "source": {
+        "title": "Royal Society of Chemistry: Belousov-Zhabotinsky Reaction",
+        "url": "https://www.rsc.org/"
+      }
+    },
+    {
+      "id": "fact-chem-017",
+      "title": "Some materials become more ordered when heated",
+      "category": "chemistry",
+      "topic": "thermodynamics",
+      "tags": ["thermodynamics", "entropy", "materials", "phase transitions", "order"],
+      "summary": "Although heating usually increases molecular disorder, certain systems can undergo transitions into more ordered structures when temperature changes.",
+      "whySurprising": "The common idea that 'heating always makes things more disordered' is not universally true for the structure of a material.",
+      "explanation": "The equilibrium state of a material is determined by the balance between enthalpy and entropy through its free energy. Under some circumstances, an ordered phase can become thermodynamically favoured over a less ordered phase as temperature changes.",
+      "deepDive": "Such behaviour occurs in particular materials and phase-transition systems rather than being a general property of matter. It demonstrates why thermodynamic stability cannot be inferred from entropy alone.",
+      "source": {
+        "title": "NIST: Thermodynamics and Phase Transitions",
+        "url": "https://www.nist.gov/"
+      }
+    },
+    {
+      "id": "fact-chem-018",
+      "title": "Liquid oxygen is attracted to magnets",
+      "category": "chemistry",
+      "topic": "magnetism of matter",
+      "tags": ["oxygen", "liquid oxygen", "paramagnetism", "magnetism", "molecular oxygen"],
+      "summary": "Molecular oxygen is paramagnetic, so liquid oxygen can be attracted to a strong magnetic field.",
+      "whySurprising": "A substance that looks like an ordinary liquid can visibly respond to a magnetic field.",
+      "explanation": "An oxygen molecule has two unpaired electrons in its molecular orbitals. These unpaired electrons give molecular oxygen paramagnetic behaviour, causing it to be attracted toward regions of stronger magnetic field.",
+      "deepDive": "The magnetic behaviour of oxygen is a direct consequence of its quantum electronic structure. Demonstrations using liquid oxygen therefore connect an everyday chemical substance with molecular orbital theory.",
+      "source": {
+        "title": "NIST Chemistry WebBook: Oxygen",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447"
+      }
+    },
+    {
+      "id": "fact-chem-019",
+      "title": "Polymers can behave partly like solids and partly like liquids",
+      "category": "chemistry",
+      "topic": "polymer chemistry",
+      "tags": ["polymers", "viscoelasticity", "materials", "rheology", "molecular chains"],
+      "summary": "Many polymeric materials are viscoelastic, meaning their response to deformation combines characteristics of both elastic solids and viscous fluids.",
+      "whySurprising": "The same material can store mechanical energy like a spring while also slowly flowing or relaxing like a liquid.",
+      "explanation": "Long polymer chains can stretch, move, entangle, and rearrange on different timescales. As a result, the mechanical response depends strongly on how quickly and for how long the material is deformed.",
+      "deepDive": "Viscoelasticity helps explain why materials such as rubber, plastics, and biological tissues can behave very differently under sudden impacts versus slow deformation.",
+      "source": {
+        "title": "Encyclopaedia Britannica: Viscoelasticity",
+        "url": "https://www.britannica.com/science/viscoelasticity"
+      }
+    },
+    {
+      "id": "fact-chem-020",
+      "title": "Molecules can act like tiny machines",
+      "category": "chemistry",
+      "topic": "supramolecular chemistry",
+      "tags": ["molecular machines", "supramolecular chemistry", "nanotechnology", "molecules", "chemistry"],
+      "summary": "Chemists can design molecules and molecular assemblies that perform controlled mechanical motions such as rotation, switching, or transport.",
+      "whySurprising": "Individual molecules can be engineered to behave like microscopic mechanical components.",
+      "explanation": "Molecular machines use changes in molecular structure, chemical reactions, light, or other energy inputs to produce controlled movements. Their components operate through interactions occurring at the molecular scale.",
+      "deepDive": "The development of molecular machines established a bridge between chemistry and nanotechnology. Rotors, switches, molecular motors, and other systems demonstrate that mechanical function can emerge from carefully designed molecular architecture.",
+      "source": {
+        "title": "Nobel Prize: The Nobel Prize in Chemistry 2016",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2016/summary/"
+      }
+    },
     }
   ]
 }
